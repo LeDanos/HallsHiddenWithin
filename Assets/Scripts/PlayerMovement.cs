@@ -44,12 +44,12 @@ public class PlayerMovement : MonoBehaviour
         };
         if (isSprinting==true)
         {
-            Stamina-=0.02f;
+            Stamina-=0.1f;
         }else
         {
             if (Stamina<MaxStamina)
             {
-                Stamina+=0.01f;
+                Stamina+=0.05f;
             }
         }
         StaminaOverlay.transform.localScale = new Vector3 (1+(Stamina/100),1+(Stamina/100),1);
