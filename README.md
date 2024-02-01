@@ -1,4 +1,4 @@
-<h1>Version 0.1.x</h1>
+<h1>Version 0.1</h1>
 <br/>
 <p>Finally posted the thing on github.</p>
 <p>Movement, camera rotation, pixelated filter, sprinting, stamina and interaction all in one! (Wowzers!)</p>
