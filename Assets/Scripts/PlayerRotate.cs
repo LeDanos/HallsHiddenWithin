@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerRotate : MonoBehaviour
@@ -11,10 +13,11 @@ public class PlayerRotate : MonoBehaviour
     {
         
     }
-
     // Update is called once per frame
     void Update()
     {
+        if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false)    //If the game isnt paused (Pause.isPaused) does the thing
+        {
         float h = horizontalSpeed * Input.GetAxis("Mouse X");
         float v = verticalSpeed * Input.GetAxis("Mouse Y");
         if (transform.rotation.x>0.6f)
@@ -26,6 +29,7 @@ public class PlayerRotate : MonoBehaviour
         }else
         {
             transform.Rotate(v, h, 0);
+        } 
         }
     }
 }

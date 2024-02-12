@@ -17,15 +17,19 @@ public class PlayerMovement : MonoBehaviour
     public Camera MainCamera;
     public RawImage SprintingOverlay;
     public RawImage StaminaOverlay;
-    public float MaxStamina =1000;
+    public float MaxStamina =100;
     private float Stamina;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         Stamina=MaxStamina;
+        UnityEngine.Cursor.visible = false;
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
     }
     void Update(){
+        if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false)        //If the game isnt paused (Pause.isPaused) does the thing
+        {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             Debug.Log("Sprint on");
@@ -44,15 +48,16 @@ public class PlayerMovement : MonoBehaviour
         };
         if (isSprinting==true)
         {
-            Stamina-=0.1f;
+            Stamina-=0.05f;
         }else
         {
             if (Stamina<MaxStamina)
             {
-                Stamina+=0.05f;
+                Stamina+=0.025f;
             }
         }
         StaminaOverlay.transform.localScale = new Vector3 (1+(Stamina/100),1+(Stamina/100),1);
+    }
     }
     private void FixedUpdate()
     {

@@ -361,6 +361,8 @@
 "Assets/Pixelation/Scripts/Chunky.cs"
 "Assets/Pixelation/Scripts/Pixelation.cs"
 "Assets/Scripts/Interactor.cs"
+"Assets/Scripts/Pause.cs"
+"Assets/Scripts/PauseContinue.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/PlayerRotate.cs"
 "Assets/Scripts/TestInteractable.cs"

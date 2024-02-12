@@ -21,7 +21,7 @@ MonoBehaviour:
   m_StartTime: 0
   m_EndTime: 0
   m_CapFrameRate: 1
-  m_ExitPlayMode: 1
+  m_ExitPlayMode: 0
   m_RecorderSettings:
   - {fileID: 2}
 --- !u!114 &2
@@ -37,7 +37,7 @@ MonoBehaviour:
   m_Name: Movie
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 5
+  take: 18
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
