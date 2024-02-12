@@ -1,7 +1,8 @@
 <h1>Version 0.2</h1>
 <p>Added a fully functional pause menu! (It even comes free with a continue button for when you are too lazy to press escape!)(Amaznig offer!)</p>
 <p>The darkness is coming... You need to run...</p>
-<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/976e129c-fab3-42b3-9da7-20c176377695"/>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/33992cb3-c9c0-4889-8161-ccb534cdb81b"/>
+
 <br/>
 <h1>Version 0.1</h1>
 <p>Finally posted the thing on github.</p>
