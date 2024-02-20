@@ -17,8 +17,11 @@ public class PlayerMovement : MonoBehaviour
     public Camera MainCamera;
     public RawImage SprintingOverlay;
     public RawImage StaminaOverlay;
+    public RawImage r;
     public float MaxStamina =100;
     private float Stamina;
+    public AudioSource walk;
+    public AudioSource run;
 
     private void Start()
     {
@@ -57,6 +60,14 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         StaminaOverlay.transform.localScale = new Vector3 (1+(Stamina/100),1+(Stamina/100),1);
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            r.enabled=true;
+        }
+        else if (Input.GetKeyUp(KeyCode.R))
+        {
+            r.enabled=false;
+        }
     }
     }
     private void FixedUpdate()
@@ -66,6 +77,23 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 verticalMovement = transform.forward * moveSpeed * verticalInput;
         Vector3 horizontalMovement = transform.right * moveSpeed * horizontalInput;
+        
+        if (verticalInput>0.1||horizontalInput>0.1||verticalInput<-0.1||horizontalInput<-0.1)
+        {
+            if (isSprinting==true)
+            {
+                walk.enabled=false;
+                run.enabled=true;
+            }else
+            {
+                run.enabled=false;
+                walk.enabled=true;
+            }
+        }else
+        {
+            walk.enabled=false;
+            run.enabled=false;
+        }
         
         if (isSprinting==true)
         {
@@ -79,6 +107,8 @@ public class PlayerMovement : MonoBehaviour
                 isSprinting=false;
                 MainCamera.fieldOfView=60f;
                 SprintingOverlay.enabled=false;
+                run.enabled=false;
+                walk.enabled=true;
             }
         }
 
