@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
     }
     void Update(){
-        if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false)        //If the game isnt paused (Pause.isPaused) does the thing
+            if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false&&GameObject.Find("Keypad").GetComponent<KeypadInteractable>().interacted==false)        //If the game isnt paused (Pause.isPaused) does the thing
         {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
@@ -69,9 +69,12 @@ public class PlayerMovement : MonoBehaviour
             r.enabled=false;
         }
     }
-    }
+        }
+        
     private void FixedUpdate()
     {
+        if (GameObject.Find("Keypad").GetComponent<KeypadInteractable>().interacted==false)
+        {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
@@ -115,5 +118,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 movement = verticalMovement + horizontalMovement;
 
         rb.MovePosition(rb.position + movement * Time.fixedDeltaTime);
+        }
+        
     }
 }

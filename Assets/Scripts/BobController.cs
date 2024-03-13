@@ -32,7 +32,7 @@ public class BobController : MonoBehaviour
         {
             if (Physics.Raycast(see, out RaycastHit hitInfo, range))
             {
-                Debug.Log("Raycast hit");
+                //Debug.Log("Raycast hit");
                 if (hitInfo.collider.CompareTag("Player"))
                 {
                     spottedTarget=true;
