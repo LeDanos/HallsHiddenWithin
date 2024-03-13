@@ -1,3 +1,9 @@
+<h1>Version 0.3</h1>
+<p>Added Bob :)</p>
+<p>He a real one.</p>
+<p>He roam, and if he see, he come.</p>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/6b47387b-c984-4874-bcee-0f584b395aee"/>
+<br/>
 <h1>Version 0.2</h1>
 <p>Added a fully functional pause menu! (It even comes free with a continue button for when you are too lazy to press escape!)(Amaznig offer!)</p>
 <p>The darkness is coming... You need to run...</p>
