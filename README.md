@@ -1,3 +1,11 @@
+<h1>Version 0.4</h1>
+<p>Added the keypad I worked on religiously over the holidays.</p>
+<p>After many pathetic attempts to understad blender modeling and rigging I said fuck it and just gave bob a front and back 2D texture.</p>
+<p>Many gifs. Enjoy. :)</p>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/956e5bcf-7381-4383-8b94-6a69f9020943"/>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/f55d4d83-2550-49fe-a60a-4b85465511d5"/>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/8c308020-19e0-49b0-98e7-55cf12e11764"/>
+<br/>
 <h1>Version 0.3</h1>
 <p>Added Bob :)</p>
 <p>He a real one.</p>
