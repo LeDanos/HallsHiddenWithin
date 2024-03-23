@@ -5,15 +5,14 @@ using UnityEngine;
 public class KeypadInteractable : MonoBehaviour, IInteractable{
     public Transform playerCameraPosition;
     public Transform interactableCameraPosition;
-    public bool interacted=false;
     public BoxCollider inspector;
     private float fuckingWait=10f;
 
     public void Interact(){
-        if (interacted==false&&fuckingWait>=10)
+        if (GameObject.Find("Player").GetComponent<PlayerMovement>().interacted==false&&fuckingWait>=10)
         {
             Debug.Log("Interacted");
-            interacted=true;
+            GameObject.Find("Player").GetComponent<PlayerMovement>().interacted=true;
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
             playerCameraPosition.position=Camera.main.transform.position;
@@ -25,7 +24,7 @@ public class KeypadInteractable : MonoBehaviour, IInteractable{
         }
     }
     void Update(){
-        if (interacted==true)
+        if (GameObject.Find("Player").GetComponent<PlayerMovement>().interacted==true)
         {
             Ray ra = Camera.main.ScreenPointToRay(Input.mousePosition);
             ra.direction*=100;
@@ -46,7 +45,7 @@ public class KeypadInteractable : MonoBehaviour, IInteractable{
             if (Input.GetKeyDown(KeyCode.E))
             {
                 Debug.Log("Uninteracted");
-                interacted=false;
+                GameObject.Find("Player").GetComponent<PlayerMovement>().interacted=false;
                 Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;
                 Camera.main.transform.position=playerCameraPosition.position;

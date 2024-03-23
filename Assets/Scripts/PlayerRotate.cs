@@ -16,7 +16,7 @@ public class PlayerRotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false&&GameObject.Find("Keypad").GetComponent<KeypadInteractable>().interacted==false)    //If the game isnt paused (Pause.isPaused) does the thing
+        if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().interacted==false)    //If the game isnt paused (Pause.isPaused) does the thing
         {
         float h = horizontalSpeed * Input.GetAxis("Mouse X");
         float v = verticalSpeed * Input.GetAxis("Mouse Y");

@@ -11,10 +11,11 @@ public class BobController : MonoBehaviour
     public NavMeshAgent agent;
     public Transform target;
     public bool spottedTarget=false;
-    public float range=100f;
+    public float range=200f;
     public float maxRoamCooldown=1000f;
     private float roamCooldown=0f;
     public RawImage r;
+    private float chaseTimer=0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,14 +27,24 @@ public class BobController : MonoBehaviour
         if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false)        //If the game isnt paused (Pause.isPaused) does the thing
         {
         Vector3 forward = transform.TransformDirection(Vector3.forward) * range;
-        Ray see = new Ray(transform.position, forward);
-        Debug.DrawRay(transform.position,forward,Color.green);
+        Vector3 left = forward;
+        Vector3 right = forward;
+        left.x -=15;
+        right.x +=15;
+        Vector3 position = transform.position;
+        position.y -=0.5f;
+        Ray see = new Ray(position, forward);
+        Ray seeLeft = new Ray(position, left);
+        Ray seeRight = new Ray(position, right);
+        Debug.DrawRay(position,forward,Color.green);
+        Debug.DrawRay(position,left,Color.green);
+        Debug.DrawRay(position,right,Color.green);
         if (spottedTarget==false)
         {
             if (Physics.Raycast(see, out RaycastHit hitInfo, range))
             {
                 //Debug.Log("Raycast hit");
-                if (hitInfo.collider.CompareTag("Player"))
+                if (hitInfo.collider.CompareTag("Player")&&GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
                 {
                     spottedTarget=true;
                     Debug.Log("SPOTTED");
@@ -72,7 +83,27 @@ public class BobController : MonoBehaviour
             }
         }else
         {
-            agent.SetDestination(target.position);  //walk to target
+            if (chaseTimer<1000)
+            {
+                if (GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
+                {
+                    agent.SetDestination(target.position);  //walk to target
+                    chaseTimer++;
+                }
+                else
+                {
+                    chaseTimer=0;
+                    spottedTarget=false;
+                    roamCooldown=maxRoamCooldown/2;
+                    Debug.Log("Unspotted");
+                }
+            }else
+            {
+                chaseTimer=0;
+                spottedTarget=false;
+                roamCooldown=maxRoamCooldown/2;
+                Debug.Log("Unspotted");
+            }
         }
     }}
 
@@ -80,8 +111,11 @@ public class BobController : MonoBehaviour
         {
             if (collision.gameObject.CompareTag("Player"))
             {
+                if (GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
+                {
                 r.enabled=true;
                 Time.timeScale=0;
+                }
             }
         }
 }

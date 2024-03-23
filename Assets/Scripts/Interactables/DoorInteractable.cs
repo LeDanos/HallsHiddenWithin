@@ -12,11 +12,11 @@ public class DoorInteractable : MonoBehaviour, IInteractable{
         if (isOpen==false)
         {
             isOpen=true;
-            rb.RotateAround(point.transform.position,Vector3.up,90);
+            rb.RotateAround(point.transform.position,Vector3.up,-90);
         }else
         {
             isOpen=false;
-            rb.RotateAround(point.transform.position,Vector3.up,-90);
+            rb.RotateAround(point.transform.position,Vector3.up,90);
         }
     }
 }

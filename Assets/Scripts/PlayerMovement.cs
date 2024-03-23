@@ -22,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
     private float Stamina;
     public AudioSource walk;
     public AudioSource run;
+    public bool interacted=false;
+    public bool hidden=false;
 
     private void Start()
     {
@@ -31,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
     }
     void Update(){
-            if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false&&GameObject.Find("Keypad").GetComponent<KeypadInteractable>().interacted==false)        //If the game isnt paused (Pause.isPaused) does the thing
+            if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false&&interacted==false)        //If the game isnt paused (Pause.isPaused) does the thing
         {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
@@ -73,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
         
     private void FixedUpdate()
     {
-        if (GameObject.Find("Keypad").GetComponent<KeypadInteractable>().interacted==false)
+        if (interacted==false)
         {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
