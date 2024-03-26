@@ -11,12 +11,15 @@ public class BobController : MonoBehaviour
     public NavMeshAgent agent;
     public Transform target;
     public bool spottedTarget=false;
-    public float range=200f;
+    public float range=150f;
     public float maxRoamCooldown=1000f;
     private float roamCooldown=0f;
     public RawImage r;
     private float chaseTimer=0f;
-    // Start is called before the first frame update
+    public Transform[] patrol;
+    private float openCooldown=0f;
+    public GameObject gameOverCamera;
+    public Camera playerCamera;
     void Start()
     {
     }
@@ -27,23 +30,18 @@ public class BobController : MonoBehaviour
         if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false)        //If the game isnt paused (Pause.isPaused) does the thing
         {
         Vector3 forward = transform.TransformDirection(Vector3.forward) * range;
-        Vector3 left = forward;
-        Vector3 right = forward;
-        left.x -=15;
-        right.x +=15;
         Vector3 position = transform.position;
         position.y -=0.5f;
+
+        //Forward raycast stuff
         Ray see = new Ray(position, forward);
-        Ray seeLeft = new Ray(position, left);
-        Ray seeRight = new Ray(position, right);
         Debug.DrawRay(position,forward,Color.green);
-        Debug.DrawRay(position,left,Color.green);
-        Debug.DrawRay(position,right,Color.green);
+
         if (spottedTarget==false)
         {
+        // ---------------------------Forward Raycast---------------------------------
             if (Physics.Raycast(see, out RaycastHit hitInfo, range))
             {
-                //Debug.Log("Raycast hit");
                 if (hitInfo.collider.CompareTag("Player")&&GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
                 {
                     spottedTarget=true;
@@ -51,34 +49,32 @@ public class BobController : MonoBehaviour
                     agent.SetDestination(target.position);  //walk to target
                 }else
                 {
-                    //roam
-                    if (roamCooldown==maxRoamCooldown)
+                    InFrontScan(position,forward);
+                    if (spottedTarget==false)
                     {
-                        Vector3 roamTarget = transform.position;
-                        roamTarget.x += UnityEngine.Random.Range(-20,20);
-                        roamTarget.z += UnityEngine.Random.Range(-20,20);
-                        agent.SetDestination(roamTarget);  //walk to target
-                        roamCooldown=0;
-                        Debug.Log("Walkin'");
-                    }else
-                    {
-                        roamCooldown++;
-                    }  
+                        Roam();
                     }
+                    //Roam();
+                }
+                //Open doors
+                if (hitInfo.collider.CompareTag("Door"))
+                {
+                    if (openCooldown<1000)
+                    {
+                        openCooldown++;
+                    }else{
+                        if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
+                        {
+                        interactObj.Interact();
+                        }
+                    }
+                }
             }else
             {
-                //roam
-                if (roamCooldown==maxRoamCooldown)
+                InFrontScan(position,forward);
+                if (spottedTarget==false)
                 {
-                    Vector3 roamTarget = transform.position;
-                    roamTarget.x += UnityEngine.Random.Range(-20,20);
-                    roamTarget.z += UnityEngine.Random.Range(-20,20);
-                    agent.SetDestination(roamTarget);  //walk to target
-                    roamCooldown=0;
-                    Debug.Log("Walkin'");
-                }else
-                {
-                    roamCooldown++;
+                    Roam();
                 }
             }
         }else
@@ -107,14 +103,55 @@ public class BobController : MonoBehaviour
         }
     }}
 
+//--------------------------------------------------------------------------------------------------------------
+    private void InFrontScan(Vector3 position,Vector3 forward){
+        Collider[] around=Physics.OverlapSphere(position,20);
+        foreach (var hitCollider in around)
+        {
+            if (hitCollider.CompareTag("Player")&&GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
+            {
+                if (Vector3.Dot(forward,target.position)>0.7)
+                {
+                    Vector3 toPlayer = target.position-position;
+                    Ray toPlayerRay =new Ray(position,toPlayer);
+                    Debug.DrawRay(position,toPlayer,Color.red);
+                    if (Physics.Raycast(toPlayerRay, out RaycastHit shitInfo)&&shitInfo.collider.CompareTag("Player"))
+                    {
+                        spottedTarget=true;
+                        Debug.Log("SPOTTED");
+                        agent.SetDestination(target.position);  //walk to target
+                    }
+                }
+            }
+        }
+    }
+
+    private void Roam(){
+        if (roamCooldown==maxRoamCooldown)
+                {
+                    int roam = UnityEngine.Random.Range(0,patrol.Length);
+                    Vector3 roamTarget = patrol[roam].position;
+                    agent.SetDestination(roamTarget);  //walk to target
+                    roamCooldown=0;
+                    Debug.Log("Walkin'");
+                }else
+                {
+                    roamCooldown++;
+                }
+    }
+
     private void OnCollisionEnter(Collision collision)
         {
             if (collision.gameObject.CompareTag("Player"))
             {
                 if (GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
                 {
-                r.enabled=true;
                 Time.timeScale=0;
+                playerCamera.transform.position=gameOverCamera.transform.position;
+                playerCamera.transform.rotation=gameOverCamera.transform.rotation;
+                GameObject.Find("Player").GetComponent<PlayerMovement>().interacted=true;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
                 }
             }
         }

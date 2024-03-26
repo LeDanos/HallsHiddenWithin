@@ -1,0 +1,3806 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/globalgamemanagers",
+      "DisplayName": "Copying globalgamemanagers",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/globalgamemanagers"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/globalgamemanagers"
+      ],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/globalgamemanagers.assets",
+      "DisplayName": "Copying globalgamemanagers.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/globalgamemanagers.assets"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/globalgamemanagers.assets"
+      ],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/globalgamemanagers.assets.resS",
+      "DisplayName": "Copying globalgamemanagers.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/globalgamemanagers.assets.resS"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/globalgamemanagers.assets.resS"
+      ],
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/level0",
+      "DisplayName": "Copying level0",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/level0"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/level0"
+      ],
+      "DebugActionIndex": 4
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/level0.resS",
+      "DisplayName": "Copying level0.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/level0.resS"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/level0.resS"
+      ],
+      "DebugActionIndex": 5
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/resources.assets",
+      "DisplayName": "Copying resources.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/resources.assets"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/resources.assets"
+      ],
+      "DebugActionIndex": 6
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/resources.assets.resS",
+      "DisplayName": "Copying resources.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/resources.assets.resS"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/resources.assets.resS"
+      ],
+      "DebugActionIndex": 7
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Resources/unity_builtin_extra",
+      "DisplayName": "Copying unity_builtin_extra",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/Resources/unity_builtin_extra"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Resources/unity_builtin_extra"
+      ],
+      "DebugActionIndex": 8
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/RuntimeInitializeOnLoads.json",
+      "DisplayName": "Copying RuntimeInitializeOnLoads.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/RuntimeInitializeOnLoads.json"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/RuntimeInitializeOnLoads.json"
+      ],
+      "DebugActionIndex": 9
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/ScriptingAssemblies.json",
+      "DisplayName": "Copying ScriptingAssemblies.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/ScriptingAssemblies.json"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/ScriptingAssemblies.json"
+      ],
+      "DebugActionIndex": 10
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/sharedassets0.assets",
+      "DisplayName": "Copying sharedassets0.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/sharedassets0.assets"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/sharedassets0.assets"
+      ],
+      "DebugActionIndex": 11
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/sharedassets0.assets.resS",
+      "DisplayName": "Copying sharedassets0.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/sharedassets0.assets.resS"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/sharedassets0.assets.resS"
+      ],
+      "DebugActionIndex": 12
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/sharedassets0.resource",
+      "DisplayName": "Copying sharedassets0.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/sharedassets0.resource"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/sharedassets0.resource"
+      ],
+      "DebugActionIndex": 13
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
+      "DisplayName": "Writing boot.config_tyr4.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 83,
+      "PayloadLength": 15091,
+      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/boot.config_tyr4.info"
+      ],
+      "DebugActionIndex": 14
+    },
+    {
+      "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
+      "DisplayName": "AddBootConfigGUID boot",
+      "Action": "\"E:\\Unity\\UnityEditor\\2022.3.17f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"E:\\Unity\\UnityEditor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\WinPlayerBuildProgram.exe\" \"E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Bee;E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\boot.config_tyr4.info\"",
+      "Inputs": [
+        "Library/PlayerDataCache/Win/Data/boot.config",
+        "Library/PlayerDataCache/Win/Data/boot.config",
+        "Library/PlayerDataCache/Win/Data/globalgamemanagers",
+        "Library/PlayerDataCache/Win/Data/globalgamemanagers.assets",
+        "Library/PlayerDataCache/Win/Data/globalgamemanagers.assets.resS",
+        "Library/PlayerDataCache/Win/Data/level0",
+        "Library/PlayerDataCache/Win/Data/level0.resS",
+        "Library/PlayerDataCache/Win/Data/resources.assets",
+        "Library/PlayerDataCache/Win/Data/resources.assets.resS",
+        "Library/PlayerDataCache/Win/Data/Resources/unity_builtin_extra",
+        "Library/PlayerDataCache/Win/Data/RuntimeInitializeOnLoads.json",
+        "Library/PlayerDataCache/Win/Data/ScriptingAssemblies.json",
+        "Library/PlayerDataCache/Win/Data/sharedassets0.assets",
+        "Library/PlayerDataCache/Win/Data/sharedassets0.assets.resS",
+        "Library/PlayerDataCache/Win/Data/sharedassets0.resource",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll",
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll",
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Recorder.Base.dll",
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Recorder.dll",
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll",
+        "Library/Bee/Player5e1bea20-inputdata.json",
+        "Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll",
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/boot.config"
+      ],
+      "ToBuildDependencies": [
+        14
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 15
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/boot.config",
+      "DisplayName": "Copying boot.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/boot.config"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/boot.config"
+      ],
+      "ToBuildDependencies": [
+        15
+      ],
+      "DebugActionIndex": 16
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.AIModule.dll",
+      "DisplayName": "Copying UnityEngine.AIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.AIModule.dll"
+      ],
+      "DebugActionIndex": 17
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ARModule.dll",
+      "DisplayName": "Copying UnityEngine.ARModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ARModule.dll"
+      ],
+      "DebugActionIndex": 18
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "DisplayName": "Copying UnityEngine.AccessibilityModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.AccessibilityModule.dll"
+      ],
+      "DebugActionIndex": 19
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "DisplayName": "Copying UnityEngine.AndroidJNIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.AndroidJNIModule.dll"
+      ],
+      "DebugActionIndex": 20
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.AnimationModule.dll",
+      "DisplayName": "Copying UnityEngine.AnimationModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.AnimationModule.dll"
+      ],
+      "DebugActionIndex": 21
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "DisplayName": "Copying UnityEngine.AssetBundleModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.AssetBundleModule.dll"
+      ],
+      "DebugActionIndex": 22
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.AudioModule.dll",
+      "DisplayName": "Copying UnityEngine.AudioModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.AudioModule.dll"
+      ],
+      "DebugActionIndex": 23
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ClothModule.dll",
+      "DisplayName": "Copying UnityEngine.ClothModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ClothModule.dll"
+      ],
+      "DebugActionIndex": 24
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "DisplayName": "Copying UnityEngine.ClusterInputModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ClusterInputModule.dll"
+      ],
+      "DebugActionIndex": 25
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "DisplayName": "Copying UnityEngine.ClusterRendererModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ClusterRendererModule.dll"
+      ],
+      "DebugActionIndex": 26
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ContentLoadModule.dll",
+      "DisplayName": "Copying UnityEngine.ContentLoadModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ContentLoadModule.dll"
+      ],
+      "DebugActionIndex": 27
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.CoreModule.dll",
+      "DisplayName": "Copying UnityEngine.CoreModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.CoreModule.dll"
+      ],
+      "DebugActionIndex": 28
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "DisplayName": "Copying UnityEngine.CrashReportingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.CrashReportingModule.dll"
+      ],
+      "DebugActionIndex": 29
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "DisplayName": "Copying UnityEngine.DSPGraphModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.DSPGraphModule.dll"
+      ],
+      "DebugActionIndex": 30
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.DirectorModule.dll",
+      "DisplayName": "Copying UnityEngine.DirectorModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.DirectorModule.dll"
+      ],
+      "DebugActionIndex": 31
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.GIModule.dll",
+      "DisplayName": "Copying UnityEngine.GIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.GIModule.dll"
+      ],
+      "DebugActionIndex": 32
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "DisplayName": "Copying UnityEngine.GameCenterModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.GameCenterModule.dll"
+      ],
+      "DebugActionIndex": 33
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.GridModule.dll",
+      "DisplayName": "Copying UnityEngine.GridModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.GridModule.dll"
+      ],
+      "DebugActionIndex": 34
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "DisplayName": "Copying UnityEngine.HotReloadModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.HotReloadModule.dll"
+      ],
+      "DebugActionIndex": 35
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "DisplayName": "Copying UnityEngine.IMGUIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.IMGUIModule.dll"
+      ],
+      "DebugActionIndex": 36
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "DisplayName": "Copying UnityEngine.ImageConversionModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ImageConversionModule.dll"
+      ],
+      "DebugActionIndex": 37
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "DisplayName": "Copying UnityEngine.InputLegacyModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.InputLegacyModule.dll"
+      ],
+      "DebugActionIndex": 38
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.InputModule.dll",
+      "DisplayName": "Copying UnityEngine.InputModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.InputModule.dll"
+      ],
+      "DebugActionIndex": 39
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "DisplayName": "Copying UnityEngine.JSONSerializeModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.JSONSerializeModule.dll"
+      ],
+      "DebugActionIndex": 40
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "DisplayName": "Copying UnityEngine.LocalizationModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.LocalizationModule.dll"
+      ],
+      "DebugActionIndex": 41
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.NVIDIAModule.dll",
+      "DisplayName": "Copying UnityEngine.NVIDIAModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.NVIDIAModule.dll"
+      ],
+      "DebugActionIndex": 42
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "DisplayName": "Copying UnityEngine.ParticleSystemModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ParticleSystemModule.dll"
+      ],
+      "DebugActionIndex": 43
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "DisplayName": "Copying UnityEngine.PerformanceReportingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
+      ],
+      "DebugActionIndex": 44
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "DisplayName": "Copying UnityEngine.Physics2DModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.Physics2DModule.dll"
+      ],
+      "DebugActionIndex": 45
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "DisplayName": "Copying UnityEngine.PhysicsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.PhysicsModule.dll"
+      ],
+      "DebugActionIndex": 46
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ProfilerModule.dll",
+      "DisplayName": "Copying UnityEngine.ProfilerModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ProfilerModule.dll"
+      ],
+      "DebugActionIndex": 47
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.PropertiesModule.dll",
+      "DisplayName": "Copying UnityEngine.PropertiesModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.PropertiesModule.dll"
+      ],
+      "DebugActionIndex": 48
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "DisplayName": "Copying UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+      ],
+      "DebugActionIndex": 49
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "DisplayName": "Copying UnityEngine.ScreenCaptureModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
+      ],
+      "DebugActionIndex": 50
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "DisplayName": "Copying UnityEngine.SharedInternalsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.SharedInternalsModule.dll"
+      ],
+      "DebugActionIndex": 51
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "DisplayName": "Copying UnityEngine.SpriteMaskModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.SpriteMaskModule.dll"
+      ],
+      "DebugActionIndex": 52
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "DisplayName": "Copying UnityEngine.SpriteShapeModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.SpriteShapeModule.dll"
+      ],
+      "DebugActionIndex": 53
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.StreamingModule.dll",
+      "DisplayName": "Copying UnityEngine.StreamingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.StreamingModule.dll"
+      ],
+      "DebugActionIndex": 54
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "DisplayName": "Copying UnityEngine.SubstanceModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.SubstanceModule.dll"
+      ],
+      "DebugActionIndex": 55
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "DisplayName": "Copying UnityEngine.SubsystemsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.SubsystemsModule.dll"
+      ],
+      "DebugActionIndex": 56
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TLSModule.dll",
+      "DisplayName": "Copying UnityEngine.TLSModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TLSModule.dll"
+      ],
+      "DebugActionIndex": 57
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TerrainModule.dll",
+      "DisplayName": "Copying UnityEngine.TerrainModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TerrainModule.dll"
+      ],
+      "DebugActionIndex": 58
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "DisplayName": "Copying UnityEngine.TerrainPhysicsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
+      ],
+      "DebugActionIndex": 59
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "DisplayName": "Copying UnityEngine.TextCoreFontEngineModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+      ],
+      "DebugActionIndex": 60
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "DisplayName": "Copying UnityEngine.TextCoreTextEngineModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+      ],
+      "DebugActionIndex": 61
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "DisplayName": "Copying UnityEngine.TextRenderingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TextRenderingModule.dll"
+      ],
+      "DebugActionIndex": 62
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TilemapModule.dll",
+      "DisplayName": "Copying UnityEngine.TilemapModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TilemapModule.dll"
+      ],
+      "DebugActionIndex": 63
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "DisplayName": "Copying UnityEngine.UIElementsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UIElementsModule.dll"
+      ],
+      "DebugActionIndex": 64
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UIModule.dll",
+      "DisplayName": "Copying UnityEngine.UIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UIModule.dll"
+      ],
+      "DebugActionIndex": 65
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UmbraModule.dll",
+      "DisplayName": "Copying UnityEngine.UmbraModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UmbraModule.dll"
+      ],
+      "DebugActionIndex": 66
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityAnalyticsCommonModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
+      ],
+      "DebugActionIndex": 67
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityAnalyticsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
+      ],
+      "DebugActionIndex": 68
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityConnectModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityConnectModule.dll"
+      ],
+      "DebugActionIndex": 69
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityCurlModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityCurlModule.dll"
+      ],
+      "DebugActionIndex": 70
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityTestProtocolModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
+      ],
+      "DebugActionIndex": 71
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+      ],
+      "DebugActionIndex": 72
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestAudioModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+      ],
+      "DebugActionIndex": 73
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
+      ],
+      "DebugActionIndex": 74
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestTextureModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+      ],
+      "DebugActionIndex": 75
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestWWWModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+      ],
+      "DebugActionIndex": 76
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.VFXModule.dll",
+      "DisplayName": "Copying UnityEngine.VFXModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.VFXModule.dll"
+      ],
+      "DebugActionIndex": 77
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.VRModule.dll",
+      "DisplayName": "Copying UnityEngine.VRModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.VRModule.dll"
+      ],
+      "DebugActionIndex": 78
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "DisplayName": "Copying UnityEngine.VehiclesModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.VehiclesModule.dll"
+      ],
+      "DebugActionIndex": 79
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.VideoModule.dll",
+      "DisplayName": "Copying UnityEngine.VideoModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.VideoModule.dll"
+      ],
+      "DebugActionIndex": 80
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "DisplayName": "Copying UnityEngine.VirtualTexturingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
+      ],
+      "DebugActionIndex": 81
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.WindModule.dll",
+      "DisplayName": "Copying UnityEngine.WindModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.WindModule.dll"
+      ],
+      "DebugActionIndex": 82
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.XRModule.dll",
+      "DisplayName": "Copying UnityEngine.XRModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.XRModule.dll"
+      ],
+      "DebugActionIndex": 83
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.dll",
+      "DisplayName": "Copying UnityEngine.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.dll"
+      ],
+      "DebugActionIndex": 84
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Assembly-CSharp.dll",
+      "DisplayName": "Copying Assembly-CSharp.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Assembly-CSharp.dll"
+      ],
+      "DebugActionIndex": 85
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.Postprocessing.Runtime.dll",
+      "DisplayName": "Copying Unity.Postprocessing.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.Postprocessing.Runtime.dll"
+      ],
+      "DebugActionIndex": 86
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.AI.Navigation.dll",
+      "DisplayName": "Copying Unity.AI.Navigation.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.AI.Navigation.dll"
+      ],
+      "DebugActionIndex": 87
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.Recorder.Base.dll",
+      "DisplayName": "Copying Unity.Recorder.Base.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Recorder.Base.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.Recorder.Base.dll"
+      ],
+      "DebugActionIndex": 88
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.VisualScripting.Core.dll",
+      "DisplayName": "Copying Unity.VisualScripting.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.VisualScripting.Core.dll"
+      ],
+      "DebugActionIndex": 89
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UI.dll",
+      "DisplayName": "Copying UnityEngine.UI.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UI.dll"
+      ],
+      "DebugActionIndex": 90
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.VisualScripting.Flow.dll",
+      "DisplayName": "Copying Unity.VisualScripting.Flow.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.VisualScripting.Flow.dll"
+      ],
+      "DebugActionIndex": 91
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.Timeline.dll",
+      "DisplayName": "Copying Unity.Timeline.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.Timeline.dll"
+      ],
+      "DebugActionIndex": 92
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.TextMeshPro.dll",
+      "DisplayName": "Copying Unity.TextMeshPro.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.TextMeshPro.dll"
+      ],
+      "DebugActionIndex": 93
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.Recorder.dll",
+      "DisplayName": "Copying Unity.Recorder.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Recorder.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.Recorder.dll"
+      ],
+      "DebugActionIndex": 94
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.VisualScripting.State.dll",
+      "DisplayName": "Copying Unity.VisualScripting.State.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.VisualScripting.State.dll"
+      ],
+      "DebugActionIndex": 95
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+      "DisplayName": "Copying Unity.VisualScripting.Antlr3.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "DebugActionIndex": 96
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/netstandard.dll",
+      "DisplayName": "Copying netstandard.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/netstandard.dll"
+      ],
+      "DebugActionIndex": 97
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Mono.Security.dll",
+      "DisplayName": "Copying Mono.Security.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Mono.Security.dll"
+      ],
+      "DebugActionIndex": 98
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.ComponentModel.Composition.dll",
+      "DisplayName": "Copying System.ComponentModel.Composition.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.ComponentModel.Composition.dll"
+      ],
+      "DebugActionIndex": 99
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.Configuration.dll",
+      "DisplayName": "Copying System.Configuration.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.Configuration.dll"
+      ],
+      "DebugActionIndex": 100
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.Core.dll",
+      "DisplayName": "Copying System.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.Core.dll"
+      ],
+      "DebugActionIndex": 101
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.Data.DataSetExtensions.dll",
+      "DisplayName": "Copying System.Data.DataSetExtensions.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.Data.DataSetExtensions.dll"
+      ],
+      "DebugActionIndex": 102
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.Data.dll",
+      "DisplayName": "Copying System.Data.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.Data.dll"
+      ],
+      "DebugActionIndex": 103
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.Drawing.dll",
+      "DisplayName": "Copying System.Drawing.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.Drawing.dll"
+      ],
+      "DebugActionIndex": 104
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.EnterpriseServices.dll",
+      "DisplayName": "Copying System.EnterpriseServices.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.EnterpriseServices.dll"
+      ],
+      "DebugActionIndex": 105
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "DisplayName": "Copying System.IO.Compression.FileSystem.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.IO.Compression.FileSystem.dll"
+      ],
+      "DebugActionIndex": 106
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.IO.Compression.dll",
+      "DisplayName": "Copying System.IO.Compression.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.IO.Compression.dll"
+      ],
+      "DebugActionIndex": 107
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.Net.Http.dll",
+      "DisplayName": "Copying System.Net.Http.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.Net.Http.dll"
+      ],
+      "DebugActionIndex": 108
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.Numerics.dll",
+      "DisplayName": "Copying System.Numerics.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.Numerics.dll"
+      ],
+      "DebugActionIndex": 109
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.Runtime.Serialization.dll",
+      "DisplayName": "Copying System.Runtime.Serialization.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.Runtime.Serialization.dll"
+      ],
+      "DebugActionIndex": 110
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.Security.dll",
+      "DisplayName": "Copying System.Security.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.Security.dll"
+      ],
+      "DebugActionIndex": 111
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.ServiceModel.Internals.dll",
+      "DisplayName": "Copying System.ServiceModel.Internals.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.ServiceModel.Internals.dll"
+      ],
+      "DebugActionIndex": 112
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.Transactions.dll",
+      "DisplayName": "Copying System.Transactions.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.Transactions.dll"
+      ],
+      "DebugActionIndex": 113
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.Xml.Linq.dll",
+      "DisplayName": "Copying System.Xml.Linq.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.Xml.Linq.dll"
+      ],
+      "DebugActionIndex": 114
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.Xml.dll",
+      "DisplayName": "Copying System.Xml.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.Xml.dll"
+      ],
+      "DebugActionIndex": 115
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/System.dll",
+      "DisplayName": "Copying System.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/System.dll"
+      ],
+      "DebugActionIndex": 116
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/mscorlib.dll",
+      "DisplayName": "Copying mscorlib.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/mscorlib.dll"
+      ],
+      "DebugActionIndex": 117
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.AIModule.pdb",
+      "DisplayName": "Copying UnityEngine.AIModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.AIModule.pdb"
+      ],
+      "DebugActionIndex": 118
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ARModule.pdb",
+      "DisplayName": "Copying UnityEngine.ARModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ARModule.pdb"
+      ],
+      "DebugActionIndex": 119
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.AccessibilityModule.pdb",
+      "DisplayName": "Copying UnityEngine.AccessibilityModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.AccessibilityModule.pdb"
+      ],
+      "DebugActionIndex": 120
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.AndroidJNIModule.pdb",
+      "DisplayName": "Copying UnityEngine.AndroidJNIModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.AndroidJNIModule.pdb"
+      ],
+      "DebugActionIndex": 121
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.AnimationModule.pdb",
+      "DisplayName": "Copying UnityEngine.AnimationModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.AnimationModule.pdb"
+      ],
+      "DebugActionIndex": 122
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.AssetBundleModule.pdb",
+      "DisplayName": "Copying UnityEngine.AssetBundleModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.AssetBundleModule.pdb"
+      ],
+      "DebugActionIndex": 123
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.AudioModule.pdb",
+      "DisplayName": "Copying UnityEngine.AudioModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.AudioModule.pdb"
+      ],
+      "DebugActionIndex": 124
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ClothModule.pdb",
+      "DisplayName": "Copying UnityEngine.ClothModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ClothModule.pdb"
+      ],
+      "DebugActionIndex": 125
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ClusterInputModule.pdb",
+      "DisplayName": "Copying UnityEngine.ClusterInputModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ClusterInputModule.pdb"
+      ],
+      "DebugActionIndex": 126
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ClusterRendererModule.pdb",
+      "DisplayName": "Copying UnityEngine.ClusterRendererModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ClusterRendererModule.pdb"
+      ],
+      "DebugActionIndex": 127
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ContentLoadModule.pdb",
+      "DisplayName": "Copying UnityEngine.ContentLoadModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ContentLoadModule.pdb"
+      ],
+      "DebugActionIndex": 128
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.CoreModule.pdb",
+      "DisplayName": "Copying UnityEngine.CoreModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.CoreModule.pdb"
+      ],
+      "DebugActionIndex": 129
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.CrashReportingModule.pdb",
+      "DisplayName": "Copying UnityEngine.CrashReportingModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.CrashReportingModule.pdb"
+      ],
+      "DebugActionIndex": 130
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.DSPGraphModule.pdb",
+      "DisplayName": "Copying UnityEngine.DSPGraphModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.DSPGraphModule.pdb"
+      ],
+      "DebugActionIndex": 131
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.DirectorModule.pdb",
+      "DisplayName": "Copying UnityEngine.DirectorModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.DirectorModule.pdb"
+      ],
+      "DebugActionIndex": 132
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.GIModule.pdb",
+      "DisplayName": "Copying UnityEngine.GIModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.GIModule.pdb"
+      ],
+      "DebugActionIndex": 133
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.GameCenterModule.pdb",
+      "DisplayName": "Copying UnityEngine.GameCenterModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.GameCenterModule.pdb"
+      ],
+      "DebugActionIndex": 134
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.GridModule.pdb",
+      "DisplayName": "Copying UnityEngine.GridModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.GridModule.pdb"
+      ],
+      "DebugActionIndex": 135
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.HotReloadModule.pdb",
+      "DisplayName": "Copying UnityEngine.HotReloadModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.HotReloadModule.pdb"
+      ],
+      "DebugActionIndex": 136
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.IMGUIModule.pdb",
+      "DisplayName": "Copying UnityEngine.IMGUIModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.IMGUIModule.pdb"
+      ],
+      "DebugActionIndex": 137
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ImageConversionModule.pdb",
+      "DisplayName": "Copying UnityEngine.ImageConversionModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ImageConversionModule.pdb"
+      ],
+      "DebugActionIndex": 138
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.InputLegacyModule.pdb",
+      "DisplayName": "Copying UnityEngine.InputLegacyModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.InputLegacyModule.pdb"
+      ],
+      "DebugActionIndex": 139
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.InputModule.pdb",
+      "DisplayName": "Copying UnityEngine.InputModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.InputModule.pdb"
+      ],
+      "DebugActionIndex": 140
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.JSONSerializeModule.pdb",
+      "DisplayName": "Copying UnityEngine.JSONSerializeModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.JSONSerializeModule.pdb"
+      ],
+      "DebugActionIndex": 141
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.LocalizationModule.pdb",
+      "DisplayName": "Copying UnityEngine.LocalizationModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.LocalizationModule.pdb"
+      ],
+      "DebugActionIndex": 142
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.NVIDIAModule.pdb",
+      "DisplayName": "Copying UnityEngine.NVIDIAModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.NVIDIAModule.pdb"
+      ],
+      "DebugActionIndex": 143
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ParticleSystemModule.pdb",
+      "DisplayName": "Copying UnityEngine.ParticleSystemModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ParticleSystemModule.pdb"
+      ],
+      "DebugActionIndex": 144
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.PerformanceReportingModule.pdb",
+      "DisplayName": "Copying UnityEngine.PerformanceReportingModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.PerformanceReportingModule.pdb"
+      ],
+      "DebugActionIndex": 145
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.Physics2DModule.pdb",
+      "DisplayName": "Copying UnityEngine.Physics2DModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.Physics2DModule.pdb"
+      ],
+      "DebugActionIndex": 146
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.PhysicsModule.pdb",
+      "DisplayName": "Copying UnityEngine.PhysicsModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.PhysicsModule.pdb"
+      ],
+      "DebugActionIndex": 147
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ProfilerModule.pdb",
+      "DisplayName": "Copying UnityEngine.ProfilerModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ProfilerModule.pdb"
+      ],
+      "DebugActionIndex": 148
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.PropertiesModule.pdb",
+      "DisplayName": "Copying UnityEngine.PropertiesModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.PropertiesModule.pdb"
+      ],
+      "DebugActionIndex": 149
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb",
+      "DisplayName": "Copying UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb"
+      ],
+      "DebugActionIndex": 150
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.ScreenCaptureModule.pdb",
+      "DisplayName": "Copying UnityEngine.ScreenCaptureModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.ScreenCaptureModule.pdb"
+      ],
+      "DebugActionIndex": 151
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.SharedInternalsModule.pdb",
+      "DisplayName": "Copying UnityEngine.SharedInternalsModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.SharedInternalsModule.pdb"
+      ],
+      "DebugActionIndex": 152
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.SpriteMaskModule.pdb",
+      "DisplayName": "Copying UnityEngine.SpriteMaskModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.SpriteMaskModule.pdb"
+      ],
+      "DebugActionIndex": 153
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.SpriteShapeModule.pdb",
+      "DisplayName": "Copying UnityEngine.SpriteShapeModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.SpriteShapeModule.pdb"
+      ],
+      "DebugActionIndex": 154
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.StreamingModule.pdb",
+      "DisplayName": "Copying UnityEngine.StreamingModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.StreamingModule.pdb"
+      ],
+      "DebugActionIndex": 155
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.SubstanceModule.pdb",
+      "DisplayName": "Copying UnityEngine.SubstanceModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.SubstanceModule.pdb"
+      ],
+      "DebugActionIndex": 156
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.SubsystemsModule.pdb",
+      "DisplayName": "Copying UnityEngine.SubsystemsModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.SubsystemsModule.pdb"
+      ],
+      "DebugActionIndex": 157
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TLSModule.pdb",
+      "DisplayName": "Copying UnityEngine.TLSModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TLSModule.pdb"
+      ],
+      "DebugActionIndex": 158
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TerrainModule.pdb",
+      "DisplayName": "Copying UnityEngine.TerrainModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TerrainModule.pdb"
+      ],
+      "DebugActionIndex": 159
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb",
+      "DisplayName": "Copying UnityEngine.TerrainPhysicsModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb"
+      ],
+      "DebugActionIndex": 160
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
+      "DisplayName": "Copying UnityEngine.TextCoreFontEngineModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb"
+      ],
+      "DebugActionIndex": 161
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
+      "DisplayName": "Copying UnityEngine.TextCoreTextEngineModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb"
+      ],
+      "DebugActionIndex": 162
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TextRenderingModule.pdb",
+      "DisplayName": "Copying UnityEngine.TextRenderingModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TextRenderingModule.pdb"
+      ],
+      "DebugActionIndex": 163
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.TilemapModule.pdb",
+      "DisplayName": "Copying UnityEngine.TilemapModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.TilemapModule.pdb"
+      ],
+      "DebugActionIndex": 164
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UIElementsModule.pdb",
+      "DisplayName": "Copying UnityEngine.UIElementsModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UIElementsModule.pdb"
+      ],
+      "DebugActionIndex": 165
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UIModule.pdb",
+      "DisplayName": "Copying UnityEngine.UIModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UIModule.pdb"
+      ],
+      "DebugActionIndex": 166
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UmbraModule.pdb",
+      "DisplayName": "Copying UnityEngine.UmbraModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UmbraModule.pdb"
+      ],
+      "DebugActionIndex": 167
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb",
+      "DisplayName": "Copying UnityEngine.UnityAnalyticsCommonModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb"
+      ],
+      "DebugActionIndex": 168
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb",
+      "DisplayName": "Copying UnityEngine.UnityAnalyticsModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb"
+      ],
+      "DebugActionIndex": 169
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityConnectModule.pdb",
+      "DisplayName": "Copying UnityEngine.UnityConnectModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityConnectModule.pdb"
+      ],
+      "DebugActionIndex": 170
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityCurlModule.pdb",
+      "DisplayName": "Copying UnityEngine.UnityCurlModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityCurlModule.pdb"
+      ],
+      "DebugActionIndex": 171
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb",
+      "DisplayName": "Copying UnityEngine.UnityTestProtocolModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb"
+      ],
+      "DebugActionIndex": 172
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestAssetBundleModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb"
+      ],
+      "DebugActionIndex": 173
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestAudioModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb"
+      ],
+      "DebugActionIndex": 174
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestModule.pdb",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestModule.pdb"
+      ],
+      "DebugActionIndex": 175
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestTextureModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb"
+      ],
+      "DebugActionIndex": 176
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestWWWModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb"
+      ],
+      "DebugActionIndex": 177
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.VFXModule.pdb",
+      "DisplayName": "Copying UnityEngine.VFXModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.VFXModule.pdb"
+      ],
+      "DebugActionIndex": 178
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.VRModule.pdb",
+      "DisplayName": "Copying UnityEngine.VRModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.VRModule.pdb"
+      ],
+      "DebugActionIndex": 179
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.VehiclesModule.pdb",
+      "DisplayName": "Copying UnityEngine.VehiclesModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.VehiclesModule.pdb"
+      ],
+      "DebugActionIndex": 180
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.VideoModule.pdb",
+      "DisplayName": "Copying UnityEngine.VideoModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.VideoModule.pdb"
+      ],
+      "DebugActionIndex": 181
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.VirtualTexturingModule.pdb",
+      "DisplayName": "Copying UnityEngine.VirtualTexturingModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.VirtualTexturingModule.pdb"
+      ],
+      "DebugActionIndex": 182
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.WindModule.pdb",
+      "DisplayName": "Copying UnityEngine.WindModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.WindModule.pdb"
+      ],
+      "DebugActionIndex": 183
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.XRModule.pdb",
+      "DisplayName": "Copying UnityEngine.XRModule.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.XRModule.pdb"
+      ],
+      "DebugActionIndex": 184
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.pdb",
+      "DisplayName": "Copying UnityEngine.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.pdb"
+      ],
+      "DebugActionIndex": 185
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Assembly-CSharp.pdb",
+      "DisplayName": "Copying Assembly-CSharp.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Assembly-CSharp.pdb"
+      ],
+      "DebugActionIndex": 186
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.Postprocessing.Runtime.pdb",
+      "DisplayName": "Copying Unity.Postprocessing.Runtime.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.Postprocessing.Runtime.pdb"
+      ],
+      "DebugActionIndex": 187
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.AI.Navigation.pdb",
+      "DisplayName": "Copying Unity.AI.Navigation.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.AI.Navigation.pdb"
+      ],
+      "DebugActionIndex": 188
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.Recorder.Base.pdb",
+      "DisplayName": "Copying Unity.Recorder.Base.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Recorder.Base.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.Recorder.Base.pdb"
+      ],
+      "DebugActionIndex": 189
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.VisualScripting.Core.pdb",
+      "DisplayName": "Copying Unity.VisualScripting.Core.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.VisualScripting.Core.pdb"
+      ],
+      "DebugActionIndex": 190
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/UnityEngine.UI.pdb",
+      "DisplayName": "Copying UnityEngine.UI.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/UnityEngine.UI.pdb"
+      ],
+      "DebugActionIndex": 191
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.VisualScripting.Flow.pdb",
+      "DisplayName": "Copying Unity.VisualScripting.Flow.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.VisualScripting.Flow.pdb"
+      ],
+      "DebugActionIndex": 192
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.Timeline.pdb",
+      "DisplayName": "Copying Unity.Timeline.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.Timeline.pdb"
+      ],
+      "DebugActionIndex": 193
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.TextMeshPro.pdb",
+      "DisplayName": "Copying Unity.TextMeshPro.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.TextMeshPro.pdb"
+      ],
+      "DebugActionIndex": 194
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.Recorder.pdb",
+      "DisplayName": "Copying Unity.Recorder.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Recorder.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.Recorder.pdb"
+      ],
+      "DebugActionIndex": 195
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Managed/Unity.VisualScripting.State.pdb",
+      "DisplayName": "Copying Unity.VisualScripting.State.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Managed/Unity.VisualScripting.State.pdb"
+      ],
+      "DebugActionIndex": 196
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
+      "DisplayName": "Writing app.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 15263,
+      "PayloadLength": 18,
+      "PayloadDebugContentSnippet": "LeDanos\nMazeGaming",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
+      ],
+      "DebugActionIndex": 197
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/app.info",
+      "DisplayName": "Copying app.info",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/app.info"
+      ],
+      "ToBuildDependencies": [
+        197
+      ],
+      "DebugActionIndex": 198
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming_Data/Resources/unity default resources",
+      "DisplayName": "Copying unity default resources",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/Data/Resources/unity default resources"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming_Data/Resources/unity default resources"
+      ],
+      "DebugActionIndex": 199
+    },
+    {
+      "Annotation": "CopyFiles Builds/MazeGaming.exe",
+      "DisplayName": "Copying MazeGaming.exe",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/WindowsPlayer.exe"
+      ],
+      "Outputs": [
+        "Builds/MazeGaming.exe"
+      ],
+      "DebugActionIndex": 200
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+      "DisplayName": "Copying mono-2.0-bdwgc.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+      ],
+      "DebugActionIndex": 201
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+      "DisplayName": "Copying MonoPosixHelper.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+      ],
+      "DebugActionIndex": 202
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "DisplayName": "Copying Compat.browser",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+      ],
+      "DebugActionIndex": 203
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "DisplayName": "Copying DefaultWsdlHelpGenerator.aspx",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "DebugActionIndex": 204
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "DisplayName": "Copying machine.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/2.0/machine.config"
+      ],
+      "DebugActionIndex": 205
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "DisplayName": "Copying settings.map",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/2.0/settings.map"
+      ],
+      "DebugActionIndex": 206
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config",
+      "DisplayName": "Copying web.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/2.0/web.config"
+      ],
+      "DebugActionIndex": 207
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "DisplayName": "Copying Compat.browser",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+      ],
+      "DebugActionIndex": 208
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "DisplayName": "Copying DefaultWsdlHelpGenerator.aspx",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "DebugActionIndex": 209
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "DisplayName": "Copying machine.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/4.0/machine.config"
+      ],
+      "DebugActionIndex": 210
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "DisplayName": "Copying settings.map",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/4.0/settings.map"
+      ],
+      "DebugActionIndex": 211
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config",
+      "DisplayName": "Copying web.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/4.0/web.config"
+      ],
+      "DebugActionIndex": 212
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "DisplayName": "Copying Compat.browser",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+      ],
+      "DebugActionIndex": 213
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "DisplayName": "Copying DefaultWsdlHelpGenerator.aspx",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "DebugActionIndex": 214
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "DisplayName": "Copying machine.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/4.5/machine.config"
+      ],
+      "DebugActionIndex": 215
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "DisplayName": "Copying settings.map",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/4.5/settings.map"
+      ],
+      "DebugActionIndex": 216
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config",
+      "DisplayName": "Copying web.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/4.5/web.config"
+      ],
+      "DebugActionIndex": 217
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini",
+      "DisplayName": "Copying browscap.ini",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/browscap.ini"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/browscap.ini"
+      ],
+      "DebugActionIndex": 218
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/config",
+      "DisplayName": "Copying config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/config"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/config"
+      ],
+      "DebugActionIndex": 219
+    },
+    {
+      "Annotation": "CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "DisplayName": "Copying config.xml",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+      ],
+      "Outputs": [
+        "Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+      ],
+      "DebugActionIndex": 220
+    },
+    {
+      "Annotation": "CopyFiles Builds/UnityCrashHandler32.exe",
+      "DisplayName": "Copying UnityCrashHandler32.exe",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/UnityCrashHandler32.exe"
+      ],
+      "Outputs": [
+        "Builds/UnityCrashHandler32.exe"
+      ],
+      "DebugActionIndex": 221
+    },
+    {
+      "Annotation": "CopyFiles Builds/UnityPlayer.dll",
+      "DisplayName": "Copying UnityPlayer.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/UnityPlayer.dll"
+      ],
+      "Outputs": [
+        "Builds/UnityPlayer.dll"
+      ],
+      "DebugActionIndex": 222
+    },
+    {
+      "Annotation": "Player",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 223
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.Data.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.exe"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "Library/Bee/Player5e1bea20-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "Builds/GameAssembly.dll"
+    },
+    {
+      "File": "Builds/MazeGaming.sln"
+    },
+    {
+      "File": "Builds/UnityCommon.props"
+    },
+    {
+      "File": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
+    },
+    {
+      "File": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.pdb"
+    },
+    {
+      "File": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.pdb"
+    },
+    {
+      "File": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Recorder.Base.pdb"
+    },
+    {
+      "File": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Recorder.pdb"
+    },
+    {
+      "File": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
+    },
+    {
+      "File": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
+    },
+    {
+      "File": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
+    },
+    {
+      "File": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
+    },
+    {
+      "File": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
+    },
+    {
+      "File": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
+    },
+    {
+      "File": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.pdb"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono"
+    },
+    {
+      "File": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/Data/Resources"
+    },
+    {
+      "File": "Library/Bee/Player5e1bea20-inputdata.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "Assets/StreamingAssets",
+      "Recurse": 1
+    },
+    {
+      "Path": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+    },
+    {
+      "Path": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono",
+      "Recurse": 1
+    },
+    {
+      "Path": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win32_player_development_mono/Data/Resources",
+      "Recurse": 1
+    },
+    {
+      "Path": "E:/Unity/UnityEditor/2022.3.17f1/Editor/Data/Tools/BuildPipeline"
+    },
+    {
+      "Path": "Library/PlayerDataCache/Win/Data",
+      "Recurse": 1
+    },
+    {
+      "Path": "Temp/StagingArea/Data/Plugins"
+    },
+    {
+      "Path": "Temp/StagingArea/Data/UnitySubsystems",
+      "Recurse": 1
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".winmd",
+    ".pdb",
+    ".cpp",
+    ".cc",
+    ".c",
+    ".hpp",
+    ".h",
+    ".json",
+    ".xml",
+    ".txt",
+    ".config"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "Player": 223
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/Player5e1bea20.dag.json",
+  "PayloadsFile": "C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Library/Bee/Player5e1bea20.dag.payloads",
+  "RelativePathToRoot": "../.."
+}

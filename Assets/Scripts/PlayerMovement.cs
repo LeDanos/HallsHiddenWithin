@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Threading;
-using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
@@ -12,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 1f;
     private Rigidbody rb;
-    private Boolean isSprinting=false;
+    private bool isSprinting=false;
     public float runSpeed = 2f;
     public Camera MainCamera;
     public RawImage SprintingOverlay;
@@ -53,23 +52,15 @@ public class PlayerMovement : MonoBehaviour
         };
         if (isSprinting==true)
         {
-            Stamina-=0.05f;
+            Stamina-=0.04f;
         }else
         {
             if (Stamina<MaxStamina)
             {
-                Stamina+=0.025f;
+                Stamina+=0.015f;
             }
         }
         StaminaOverlay.transform.localScale = new Vector3 (1+(Stamina/100),1+(Stamina/100),1);
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            r.enabled=true;
-        }
-        else if (Input.GetKeyUp(KeyCode.R))
-        {
-            r.enabled=false;
-        }
     }
         }
         

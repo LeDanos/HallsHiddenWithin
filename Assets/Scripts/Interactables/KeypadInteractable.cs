@@ -20,7 +20,6 @@ public class KeypadInteractable : MonoBehaviour, IInteractable{
             Camera.main.transform.position=interactableCameraPosition.position;
             Camera.main.transform.rotation=interactableCameraPosition.rotation;
             inspector.enabled=false;
-
         }
     }
     void Update(){

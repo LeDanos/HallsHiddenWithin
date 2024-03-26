@@ -3056,6 +3056,7 @@ MonoBehaviour:
   range: 20
   maxRoamCooldown: 5000
   r: {fileID: 1487364264}
+  patrol: []
 --- !u!1 &812545920
 GameObject:
   m_ObjectHideFlags: 0
@@ -3823,7 +3824,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016345071}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 963194227}
@@ -6938,6 +6939,7 @@ MonoBehaviour:
   playerCameraPosition: {fileID: 352194936}
   interactableCameraPosition: {fileID: 1256212649}
   inspector: {fileID: 1713662504}
+  hiding: 0
 --- !u!65 &1713662504
 BoxCollider:
   m_ObjectHideFlags: 0
