@@ -1,3 +1,18 @@
+<h1>Version 0.5</h1>
+<p>Redid some lighting things.</p>
+<p>Closets to hide and cry in.</p>
+<p>The map. The whole thing. It's devided into 3 zones each with their own cool looks and stuff.</p>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/3e805d80-19ec-484d-b44f-a0d8d9a6b634"/>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/0e12d6a3-4e33-44a1-a87d-b618f3ffe394"/>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/ebf32f88-7d34-41f7-bdb8-45ecfa7fa978"/>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/369d98c9-2b55-434c-9639-0a88101dcfff"/>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/61c81b2f-d2cf-49f0-a226-7c192db02bb0"/>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/8616cf5c-bf1d-49d5-aa15-76cabc5278d7"/>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/dd0766c2-2b78-4e3d-8906-71881b48023a"/>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/153290d8-b06e-41a0-bb84-059c2aefdd93"/>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/41781134-9e31-4afe-ba9b-bbd87696180e"/>
+<br/>
+
 <h1>Version 0.4</h1>
 <p>Added the keypad I worked on religiously over the holidays.</p>
 <p>After many pathetic attempts to understad blender modeling and rigging I said fuck it and just gave bob a front and back 2D texture.</p>
