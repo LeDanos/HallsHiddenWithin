@@ -11,25 +11,23 @@ public class BobController : MonoBehaviour
     public NavMeshAgent agent;
     public Transform target;
     public bool spottedTarget=false;
-    public float range=150f;
     public float maxRoamCooldown=1000f;
-    private float roamCooldown=0f;
+    public float roamCooldown=0f;
     public RawImage r;
-    private float chaseTimer=0f;
+    public float chaseTimer=0f;
     public Transform[] patrol;
     private float openCooldown=0f;
     public GameObject gameOverCamera;
     public Camera playerCamera;
-    void Start()
-    {
-    }
+    public AudioSource walk;
+    public AudioSource run;
 
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false)        //If the game isnt paused (Pause.isPaused) does the thing
+        if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().start==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().end==false)        //If the game isnt paused (Pause.isPaused) does the thing
         {
-        Vector3 forward = transform.TransformDirection(Vector3.forward) * range;
+        Vector3 forward = transform.TransformDirection(Vector3.forward) * 10;
         Vector3 position = transform.position;
         position.y -=0.5f;
 
@@ -40,7 +38,7 @@ public class BobController : MonoBehaviour
         if (spottedTarget==false)
         {
         // ---------------------------Forward Raycast---------------------------------
-            if (Physics.Raycast(see, out RaycastHit hitInfo, range))
+            if (Physics.Raycast(see, out RaycastHit hitInfo, 10))
             {
                 if (hitInfo.collider.CompareTag("Player")&&GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
                 {
@@ -50,6 +48,7 @@ public class BobController : MonoBehaviour
                 }else
                 {
                     InFrontScan(position,forward);
+                    AroundScan(position);
                     if (spottedTarget==false)
                     {
                         Roam();
@@ -72,6 +71,7 @@ public class BobController : MonoBehaviour
             }else
             {
                 InFrontScan(position,forward);
+                AroundScan(position);
                 if (spottedTarget==false)
                 {
                     Roam();
@@ -105,12 +105,12 @@ public class BobController : MonoBehaviour
 
 //--------------------------------------------------------------------------------------------------------------
     private void InFrontScan(Vector3 position,Vector3 forward){
-        Collider[] around=Physics.OverlapSphere(position,20);
+        Collider[] around=Physics.OverlapSphere(position,50);
         foreach (var hitCollider in around)
         {
             if (hitCollider.CompareTag("Player")&&GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
             {
-                if (Vector3.Dot(forward,target.position)>0.7)
+                if (Vector3.Dot(forward,target.position)>0.6)
                 {
                     Vector3 toPlayer = target.position-position;
                     Ray toPlayerRay =new Ray(position,toPlayer);
@@ -121,6 +121,25 @@ public class BobController : MonoBehaviour
                         Debug.Log("SPOTTED");
                         agent.SetDestination(target.position);  //walk to target
                     }
+                }
+            }
+        }
+    }
+
+    private void AroundScan(Vector3 position){
+        Collider[] around=Physics.OverlapSphere(position,10);
+        foreach (var hitCollider in around)
+        {
+            if (hitCollider.CompareTag("Player")&&GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
+            {
+                Vector3 toPlayer = target.position-position;
+                Ray toPlayerRay =new Ray(position,toPlayer);
+                Debug.DrawRay(position,toPlayer,Color.red);
+                if (Physics.Raycast(toPlayerRay, out RaycastHit shitInfo)&&shitInfo.collider.CompareTag("Player"))
+                {
+                    spottedTarget=true;
+                    Debug.Log("SPOTTED");
+                    agent.SetDestination(target.position);  //walk to target
                 }
             }
         }
@@ -149,9 +168,11 @@ public class BobController : MonoBehaviour
                 Time.timeScale=0;
                 playerCamera.transform.position=gameOverCamera.transform.position;
                 playerCamera.transform.rotation=gameOverCamera.transform.rotation;
-                GameObject.Find("Player").GetComponent<PlayerMovement>().interacted=true;
+                GameObject.Find("Player").GetComponent<PlayerMovement>().end=true;
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
+                run.enabled=false;
+                walk.enabled=false;
                 }
             }
         }

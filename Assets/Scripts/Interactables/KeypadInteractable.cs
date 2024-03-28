@@ -7,6 +7,8 @@ public class KeypadInteractable : MonoBehaviour, IInteractable{
     public Transform interactableCameraPosition;
     public BoxCollider inspector;
     private float fuckingWait=10f;
+    public AudioSource walk;
+    public AudioSource run;
 
     public void Interact(){
         if (GameObject.Find("Player").GetComponent<PlayerMovement>().interacted==false&&fuckingWait>=10)
@@ -20,6 +22,8 @@ public class KeypadInteractable : MonoBehaviour, IInteractable{
             Camera.main.transform.position=interactableCameraPosition.position;
             Camera.main.transform.rotation=interactableCameraPosition.rotation;
             inspector.enabled=false;
+            run.enabled=false;
+            walk.enabled=false;
         }
     }
     void Update(){

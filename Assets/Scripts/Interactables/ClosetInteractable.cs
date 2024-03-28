@@ -8,6 +8,8 @@ public class ClosetInteractable : MonoBehaviour, IInteractable{
     public BoxCollider inspector;
     private float fuckingWait=5f;
     public bool hiding=false;
+    public AudioSource walk;
+    public AudioSource run;
 
     public void Interact(){
         if (GameObject.Find("Player").GetComponent<PlayerMovement>().interacted==false&&fuckingWait>=5)
@@ -22,6 +24,8 @@ public class ClosetInteractable : MonoBehaviour, IInteractable{
             inspector.enabled=false;
             fuckingWait=0;
             hiding=true;
+            run.enabled=false;
+            walk.enabled=false;
 
         }
     }

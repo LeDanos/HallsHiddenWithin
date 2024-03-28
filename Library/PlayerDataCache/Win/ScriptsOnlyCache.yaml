@@ -12,7 +12,6 @@ ScriptsOnlyBuild:
     - PlayerMovement
     - PlayerRotate
     Unity.AI.Navigation.Editor.dll:
-    - Unity.AI.Navigation.Editor.NavMeshAssetManager
     - Unity.AI.Navigation.Editor.NavigationWindow
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
@@ -107,45 +106,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1844}
+      Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2506}
+      Script: {instanceID: 2508}
     - Class: 114
-      Script: {instanceID: 2640}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 3172}
+      Script: {instanceID: 3174}
     - Class: 114
-      Script: {instanceID: 3940}
+      Script: {instanceID: 3942}
     - Class: 114
-      Script: {instanceID: 4072}
+      Script: {instanceID: 4074}
     - Class: 114
-      Script: {instanceID: 4356}
+      Script: {instanceID: 4358}
     - Class: 114
-      Script: {instanceID: 4560}
+      Script: {instanceID: 4562}
     - Class: 114
-      Script: {instanceID: 4608}
+      Script: {instanceID: 4610}
     - Class: 114
-      Script: {instanceID: 4836}
+      Script: {instanceID: 4838}
     - Class: 114
-      Script: {instanceID: 5202}
+      Script: {instanceID: 5204}
     - Class: 114
-      Script: {instanceID: 5598}
+      Script: {instanceID: 5600}
     - Class: 114
-      Script: {instanceID: 5726}
+      Script: {instanceID: 5728}
     - Class: 114
-      Script: {instanceID: 5796}
+      Script: {instanceID: 5798}
     - Class: 114
-      Script: {instanceID: 6210}
+      Script: {instanceID: 6212}
     - Class: 114
-      Script: {instanceID: 6364}
+      Script: {instanceID: 6366}
     - Class: 114
-      Script: {instanceID: 7526}
+      Script: {instanceID: 7528}
     - Class: 114
-      Script: {instanceID: 7916}
+      Script: {instanceID: 7918}
     - Class: 114
-      Script: {instanceID: 8120}
+      Script: {instanceID: 8122}
     - Class: 114
-      Script: {instanceID: 8458}
+      Script: {instanceID: 8460}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -629,7 +628,7 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e23d3d1ba5550820c3bc411ece8e6854
+      Hash: cf930653ce4ef56f1f33484635c05551
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Pause
@@ -725,7 +724,7 @@ ScriptsOnlyBuild:
     className: Button9
   - hash:
       serializedVersion: 2
-      Hash: 7ad0f4aee18205daac7e241b0995085d
+      Hash: b2260fc13609d1ce8fa9dcc2f62f9c97
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: KeypadInteractable
@@ -1127,7 +1126,7 @@ ScriptsOnlyBuild:
     className: UnityOnSubmitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: d8f0e4b0acd21d6ca80c455476239863
+      Hash: e8af405ce87607a4f4925e026fa48e06
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ClosetInteractable
@@ -1181,7 +1180,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: e8463ed58c718675c9421c27a39b9a03
+      Hash: 25ba068f38751a0739c9f7acdbf3a950
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BobController
@@ -1247,7 +1246,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: d8b1fa63b72edeeba7417e466011697c
+      Hash: 6af08bc9d4fa087df261289fe33a7ede
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement
@@ -1290,4 +1289,5 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Builds/MazeGaming.exe
+  playerPath: C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Builds/Funny
+    Maze Game.exe

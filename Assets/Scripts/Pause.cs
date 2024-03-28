@@ -8,6 +8,8 @@ public class Pause : MonoBehaviour
 {
     public bool isPaused = false;
     public Canvas PausedOverlay;
+    public AudioSource walk;
+    public AudioSource run;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +19,7 @@ public class Pause : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape)&&GameObject.Find("Player").GetComponent<PlayerMovement>().start==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().interacted==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().end==false)
         {
             if (isPaused==false)
             {
@@ -27,6 +29,8 @@ public class Pause : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 Debug.Log("Paused");
                 Time.timeScale=0;
+                run.enabled=false;
+                walk.enabled=false;
             }
             else if (isPaused==true)
             {

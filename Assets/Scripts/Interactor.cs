@@ -23,7 +23,7 @@ public class Interactor : MonoBehaviour
     {
         
         Ray r = new Ray(InteractorSource.position, InteractorSource.forward);
-        if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange))
+        if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange)&&GameObject.Find("Player").GetComponent<Pause>().isPaused==false)
         {
             if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
             {
