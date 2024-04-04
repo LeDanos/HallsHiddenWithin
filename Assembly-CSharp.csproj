@@ -59,7 +59,7 @@
     <UnityVersion>2022.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\Domov\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\Domov\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="E:\Unity\UnityEditor\2022.3.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="E:\Unity\UnityEditor\2022.3.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Interactables\Butns\ClearButton.cs" />
     <Compile Include="Assets\Scripts\BobController.cs" />
     <Compile Include="Assets\Scripts\PauseContinue.cs" />
+    <Compile Include="Assets\Scripts\Map.cs" />
     <Compile Include="Assets\Scripts\Interactables\Butns\Button1.cs" />
     <Compile Include="Assets\Scripts\Interactables\ClosetInteractable.cs" />
     <Compile Include="Assets\Pixelation\Example\Scripts\PointLight.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Scripts\PlayerRotate.cs" />
     <Compile Include="Assets\Scripts\Interactables\Butns\Button9.cs" />
     <Compile Include="Assets\Scripts\Interactables\Butns\Button5.cs" />
+    <Compile Include="Assets\Scripts\Interactables\MapInteractable.cs" />
     <Compile Include="Assets\Pixelation\Example\Scripts\Plane.cs" />
     <Compile Include="Assets\Scripts\Interactables\Butns\Button3.cs" />
     <Compile Include="Assets\Scripts\Interactables\TestInteractable.cs" />

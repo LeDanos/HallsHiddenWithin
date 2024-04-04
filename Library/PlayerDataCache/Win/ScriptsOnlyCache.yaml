@@ -4,19 +4,31 @@ ScriptsOnlyBuild:
     - Assets.Pixelation.Scripts.Chunky
     - Assets.Pixelation.Scripts.Pixelation
     - BobController
+    - Button0
+    - Button1
+    - Button2
+    - Button3
+    - Button4
+    - Button5
+    - Button6
+    - Button7
+    - Button8
+    - Button9
+    - ClearButton
     - ClosetInteractable
+    - ConfirmButton
     - DoorInteractable
     - Interactor
+    - KeypadInteractable
+    - Map
+    - MapInteractable
     - Pause
-    - PauseContinue
     - PlayerMovement
     - PlayerRotate
     Unity.AI.Navigation.Editor.dll:
     - Unity.AI.Navigation.Editor.NavigationWindow
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
-    Unity.Recorder.Editor.dll:
-    - UnityEditor.Recorder.RecorderPreferencesSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -36,8 +48,12 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
   serializedClasses:
     Unity.TextMeshPro:
@@ -56,15 +72,28 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: Continue
+  - assembly: Assembly-CSharp
+    fullTypeName: Pause
+    methodName: ToMenu
   sceneClasses:
     Assets/Scenes/Main.unity:
     - Class: 1
@@ -108,17 +137,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1846}
     - Class: 114
+      Script: {instanceID: 1878}
+    - Class: 114
+      Script: {instanceID: 2056}
+    - Class: 114
       Script: {instanceID: 2508}
     - Class: 114
       Script: {instanceID: 2642}
     - Class: 114
+      Script: {instanceID: 2962}
+    - Class: 114
       Script: {instanceID: 3174}
+    - Class: 114
+      Script: {instanceID: 3418}
+    - Class: 114
+      Script: {instanceID: 3488}
     - Class: 114
       Script: {instanceID: 3942}
     - Class: 114
       Script: {instanceID: 4074}
     - Class: 114
-      Script: {instanceID: 4358}
+      Script: {instanceID: 4470}
     - Class: 114
       Script: {instanceID: 4562}
     - Class: 114
@@ -128,23 +167,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5204}
     - Class: 114
-      Script: {instanceID: 5600}
+      Script: {instanceID: 5250}
     - Class: 114
-      Script: {instanceID: 5728}
+      Script: {instanceID: 5258}
     - Class: 114
-      Script: {instanceID: 5798}
+      Script: {instanceID: 5432}
     - Class: 114
-      Script: {instanceID: 6212}
+      Script: {instanceID: 5548}
     - Class: 114
-      Script: {instanceID: 6366}
+      Script: {instanceID: 5602}
     - Class: 114
-      Script: {instanceID: 7528}
+      Script: {instanceID: 5644}
     - Class: 114
-      Script: {instanceID: 7918}
+      Script: {instanceID: 5664}
     - Class: 114
-      Script: {instanceID: 8122}
+      Script: {instanceID: 5730}
     - Class: 114
-      Script: {instanceID: 8460}
+      Script: {instanceID: 5800}
+    - Class: 114
+      Script: {instanceID: 6214}
+    - Class: 114
+      Script: {instanceID: 6368}
+    - Class: 114
+      Script: {instanceID: 6414}
+    - Class: 114
+      Script: {instanceID: 6716}
+    - Class: 114
+      Script: {instanceID: 7092}
+    - Class: 114
+      Script: {instanceID: 7254}
+    - Class: 114
+      Script: {instanceID: 7530}
+    - Class: 114
+      Script: {instanceID: 7848}
+    - Class: 114
+      Script: {instanceID: 7920}
+    - Class: 114
+      Script: {instanceID: 8044}
+    - Class: 114
+      Script: {instanceID: 8124}
+    - Class: 114
+      Script: {instanceID: 8288}
+    - Class: 114
+      Script: {instanceID: 8464}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -158,6 +223,8 @@ ScriptsOnlyBuild:
     - Class: 195
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -406,7 +473,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 99a1b4a8ba043273707166a1ae2c6caa
+      Hash: 3a18b245db595d4785e9b692c7f25640
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ConfirmButton
@@ -628,7 +695,7 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: cf930653ce4ef56f1f33484635c05551
+      Hash: d4154d202e9c3fcb12d2c8f07364e2e2
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Pause
@@ -818,6 +885,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: bfd173114cc9a5cadd1c1fee6d84b90e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Map
   - hash:
       serializedVersion: 2
       Hash: 191cd500c627cd6682ef6f70b8e47f2c
@@ -1180,7 +1253,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 25ba068f38751a0739c9f7acdbf3a950
+      Hash: 558f359732f448fe02d75a99c7524646
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BobController
@@ -1244,6 +1317,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ebcb737b5095850edfd8b83d0abb3374
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MapInteractable
   - hash:
       serializedVersion: 2
       Hash: 6af08bc9d4fa087df261289fe33a7ede

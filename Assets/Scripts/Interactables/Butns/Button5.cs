@@ -6,8 +6,8 @@ public class Button5 : MonoBehaviour, IInteractable{
     public void Interact(){
         if (GameObject.Find("Confirm Button").GetComponent<ConfirmButton>().changing<4)
         { 
-            GameObject.Find("Confirm Button").GetComponent<ConfirmButton>().code[GameObject.Find("Confirm Button").GetComponent<ConfirmButton>().changing]=5;
-            string s = string.Join("", GameObject.Find("Confirm Button").GetComponent<ConfirmButton>().code);
+            GameObject.Find("Confirm Button").GetComponent<ConfirmButton>().codeC[GameObject.Find("Confirm Button").GetComponent<ConfirmButton>().changing]=5;
+            string s = string.Join("", GameObject.Find("Confirm Button").GetComponent<ConfirmButton>().codeC);
             GameObject.Find("Confirm Button").GetComponent<ConfirmButton>().changing++;
             codeText.text=s;
         }

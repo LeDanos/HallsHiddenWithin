@@ -95,16 +95,6 @@ public class PlayerMovement : MonoBehaviour
             MainCamera.fieldOfView=60f;
             SprintingOverlay.enabled=false;
         };
-        if (isSprinting==true)
-        {
-            Stamina-=0.06f;
-        }else
-        {
-            if (Stamina<MaxStamina)
-            {
-                Stamina+=0.025f;
-            }
-        }
         StaminaOverlay.transform.localScale = new Vector3 (1.05f+(Stamina/100),1.05f+(Stamina/100),1);
     }
         }
@@ -153,9 +143,21 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        if (isSprinting==true)
+        {
+            Stamina-=0.3f;
+        }else
+        {
+            if (Stamina<MaxStamina)
+            {
+                Stamina+=0.1f;
+            }
+        }
+
         Vector3 movement = verticalMovement + horizontalMovement;
 
-        rb.MovePosition(rb.position + movement * Time.fixedDeltaTime);
+        //rb.MovePosition(rb.position + movement * Time.fixedDeltaTime);        old bad movePosition
+        rb.velocity = movement;                                             //  good new velocity
         }
         
     }

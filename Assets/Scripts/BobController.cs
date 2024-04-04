@@ -11,7 +11,7 @@ public class BobController : MonoBehaviour
     public NavMeshAgent agent;
     public Transform target;
     public bool spottedTarget=false;
-    public float maxRoamCooldown=1000f;
+    public float maxRoamCooldown=800f;
     public float roamCooldown=0f;
     public RawImage r;
     public float chaseTimer=0f;
@@ -21,9 +21,12 @@ public class BobController : MonoBehaviour
     public Camera playerCamera;
     public AudioSource walk;
     public AudioSource run;
+    public AudioSource bIdle;
+    public AudioSource bChase;
+    public AudioSource bAlert;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().start==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().end==false)        //If the game isnt paused (Pause.isPaused) does the thing
         {
@@ -58,7 +61,7 @@ public class BobController : MonoBehaviour
                 //Open doors
                 if (hitInfo.collider.CompareTag("Door"))
                 {
-                    if (openCooldown<1000)
+                    if (openCooldown<80)
                     {
                         openCooldown++;
                     }else{
@@ -89,6 +92,7 @@ public class BobController : MonoBehaviour
                 else
                 {
                     chaseTimer=0;
+                    bAlert.enabled=false;
                     spottedTarget=false;
                     roamCooldown=maxRoamCooldown/2;
                     Debug.Log("Unspotted");
@@ -96,16 +100,18 @@ public class BobController : MonoBehaviour
             }else
             {
                 chaseTimer=0;
+                bAlert.enabled=false;
                 spottedTarget=false;
                 roamCooldown=maxRoamCooldown/2;
                 Debug.Log("Unspotted");
             }
         }
+    Sounds(position);
     }}
 
 //--------------------------------------------------------------------------------------------------------------
     private void InFrontScan(Vector3 position,Vector3 forward){
-        Collider[] around=Physics.OverlapSphere(position,50);
+        Collider[] around=Physics.OverlapSphere(position,60);
         foreach (var hitCollider in around)
         {
             if (hitCollider.CompareTag("Player")&&GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
@@ -118,6 +124,7 @@ public class BobController : MonoBehaviour
                     if (Physics.Raycast(toPlayerRay, out RaycastHit shitInfo)&&shitInfo.collider.CompareTag("Player"))
                     {
                         spottedTarget=true;
+                        bAlert.enabled=true;
                         Debug.Log("SPOTTED");
                         agent.SetDestination(target.position);  //walk to target
                     }
@@ -138,6 +145,7 @@ public class BobController : MonoBehaviour
                 if (Physics.Raycast(toPlayerRay, out RaycastHit shitInfo)&&shitInfo.collider.CompareTag("Player"))
                 {
                     spottedTarget=true;
+                    bAlert.enabled=true;
                     Debug.Log("SPOTTED");
                     agent.SetDestination(target.position);  //walk to target
                 }
@@ -159,6 +167,39 @@ public class BobController : MonoBehaviour
                 }
     }
 
+    //-----------------------------------------------------------------------------------------------------
+
+    private void Sounds(Vector3 position){
+        Collider[] around=Physics.OverlapSphere(position,100);
+        var heading = target.position - position;
+        var distance = heading.magnitude;
+        bool e=false;
+        foreach (var hitCollider in around)
+        {
+            if (hitCollider.CompareTag("Player")&&e==false){
+                e=true;
+            }
+        }
+        if (e==true)
+        {
+            if (spottedTarget==false)
+            {
+                bIdle.volume=2/(distance/10);
+                bIdle.enabled=true;
+                bChase.enabled=false;
+            }else{
+                bChase.volume=2/(distance/10);
+                bIdle.enabled=false;
+                bChase.enabled=true;
+            }
+        }else{
+            bIdle.enabled=false;
+            bChase.enabled=false;
+        }
+    }
+
+    //-----------------------------------------------------------------------------------------------------
+
     private void OnCollisionEnter(Collision collision)
         {
             if (collision.gameObject.CompareTag("Player"))
@@ -173,6 +214,8 @@ public class BobController : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 run.enabled=false;
                 walk.enabled=false;
+                bIdle.enabled=false;
+                bChase.enabled=false;
                 }
             }
         }

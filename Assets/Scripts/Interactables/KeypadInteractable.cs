@@ -15,6 +15,7 @@ public class KeypadInteractable : MonoBehaviour, IInteractable{
         {
             Debug.Log("Interacted");
             GameObject.Find("Player").GetComponent<PlayerMovement>().interacted=true;
+            fuckingWait=0;
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
             playerCameraPosition.position=Camera.main.transform.position;
@@ -45,7 +46,7 @@ public class KeypadInteractable : MonoBehaviour, IInteractable{
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E)&&fuckingWait>=10)
             {
                 Debug.Log("Uninteracted");
                 GameObject.Find("Player").GetComponent<PlayerMovement>().interacted=false;
@@ -57,6 +58,9 @@ public class KeypadInteractable : MonoBehaviour, IInteractable{
                 fuckingWait=0;
             }
         }
+    }
+    
+    void FixedUpdate(){
         if (fuckingWait<10)
         {
             fuckingWait++;
