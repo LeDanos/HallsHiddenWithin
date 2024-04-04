@@ -1,6 +1,6 @@
 <h1>Version 0.6</h1>
 <p>Fixed some slight bugs like walking through walls.</p>
-<p>Added decorations. (courtesy of <a href="https://github.com/McBeefyVEVO">McBeefy</a></p>
+<p>Added decorations. (courtesy of <a href="https://github.com/McBeefyVEVO">McBeefy</a>)</p>
 <p>Added sounds for Bob (spooky and maybe a tiny bit loud).</p>
 <p>Added the map! Randomised and found in the red zone.</p>
 <p>Added the code puzzle with 6 randomised codes. Only 1 random code is the correct one to open the door (found on the map).</p>
