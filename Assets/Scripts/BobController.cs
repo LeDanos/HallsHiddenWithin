@@ -24,6 +24,8 @@ public class BobController : MonoBehaviour
     public AudioSource bIdle;
     public AudioSource bChase;
     public AudioSource bAlert;
+    public Transform start;
+    public float attentionSpan;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -71,6 +73,18 @@ public class BobController : MonoBehaviour
                         }
                     }
                 }
+                if (hitInfo.collider.CompareTag("Locked Door")&&GameObject.Find("Locked Door").GetComponent<LockedDoorInteractable>().hasKey==true)
+                {
+                    if (openCooldown<80)
+                    {
+                        openCooldown++;
+                    }else{
+                        if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
+                        {
+                        interactObj.Interact();
+                        }
+                    }
+                }
             }else
             {
                 InFrontScan(position,forward);
@@ -82,7 +96,7 @@ public class BobController : MonoBehaviour
             }
         }else
         {
-            if (chaseTimer<1000)
+            if (chaseTimer<(800*attentionSpan))
             {
                 if (GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
                 {
@@ -111,7 +125,7 @@ public class BobController : MonoBehaviour
 
 //--------------------------------------------------------------------------------------------------------------
     private void InFrontScan(Vector3 position,Vector3 forward){
-        Collider[] around=Physics.OverlapSphere(position,60);
+        Collider[] around=Physics.OverlapSphere(position,50*attentionSpan);
         foreach (var hitCollider in around)
         {
             if (hitCollider.CompareTag("Player")&&GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
@@ -134,7 +148,7 @@ public class BobController : MonoBehaviour
     }
 
     private void AroundScan(Vector3 position){
-        Collider[] around=Physics.OverlapSphere(position,10);
+        Collider[] around=Physics.OverlapSphere(position,10*attentionSpan);
         foreach (var hitCollider in around)
         {
             if (hitCollider.CompareTag("Player")&&GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
@@ -167,10 +181,18 @@ public class BobController : MonoBehaviour
                 }
     }
 
+    public void GoTo(GameObject point){
+        if (spottedTarget==false)
+        {
+            roamCooldown=0;
+            agent.SetDestination(point.transform.position);
+        }
+    }
+
     //-----------------------------------------------------------------------------------------------------
 
     private void Sounds(Vector3 position){
-        Collider[] around=Physics.OverlapSphere(position,100);
+        Collider[] around=Physics.OverlapSphere(position,70);
         var heading = target.position - position;
         var distance = heading.magnitude;
         bool e=false;
@@ -184,11 +206,11 @@ public class BobController : MonoBehaviour
         {
             if (spottedTarget==false)
             {
-                bIdle.volume=2/(distance/10);
+                bIdle.volume=2/(distance/5);
                 bIdle.enabled=true;
                 bChase.enabled=false;
             }else{
-                bChase.volume=2/(distance/10);
+                bChase.volume=2/(distance/5);
                 bIdle.enabled=false;
                 bChase.enabled=true;
             }
@@ -214,8 +236,10 @@ public class BobController : MonoBehaviour
                 Cursor.lockState = CursorLockMode.None;
                 run.enabled=false;
                 walk.enabled=false;
-                bIdle.enabled=false;
-                bChase.enabled=false;
+                GameObject.Find("Bob").GetComponent<BobController>().bIdle.enabled=false;
+                GameObject.Find("Bob").GetComponent<BobController>().bChase.enabled=false;
+                GameObject.Find("Gob").GetComponent<BobController>().bIdle.enabled=false;
+                GameObject.Find("Gob").GetComponent<BobController>().bChase.enabled=false;
                 }
             }
         }

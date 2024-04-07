@@ -10,16 +10,7 @@ public class ConfirmButton : MonoBehaviour, IInteractable{
     public int changing=0;
     public TextMeshPro[] codeText;
     public void Start(){
-        correctCode=Random.Range(0,5);
-        for (int e = 6 - 1; e >= 0 ; e--)
-        {
-            code[e,0]=Random.Range(0,9);
-            code[e,1]=Random.Range(0,9);
-            code[e,2]=Random.Range(0,9);
-            code[e,3]=Random.Range(0,9);
-            string s = string.Join("", code[e,0],code[e,1],code[e,2],code[e,3]);
-            codeText[e].text=s;
-        }
+        Generate();
     }
     public void Interact(){
         if (done==false)
@@ -29,6 +20,18 @@ public class ConfirmButton : MonoBehaviour, IInteractable{
                 done=true;
                 Door.position= new Vector3(Door.position.x,Door.position.y+6,Door.position.z);
             }
+        }
+    }
+    public void Generate(){
+        correctCode=Random.Range(0,5);
+        for (int e = 6 - 1; e >= 0 ; e--)
+        {
+            code[e,0]=Random.Range(0,9);
+            code[e,1]=Random.Range(0,9);
+            code[e,2]=Random.Range(0,9);
+            code[e,3]=Random.Range(0,9);
+            string s = string.Join("", code[e,0],code[e,1],code[e,2],code[e,3]);
+            codeText[e].text=s;
         }
     }
 }

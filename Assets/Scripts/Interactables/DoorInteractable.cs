@@ -18,4 +18,11 @@ public class DoorInteractable : MonoBehaviour, IInteractable{
             rb.RotateAround(point.transform.position,Vector3.up,90);
         }
     }
+    public void Restart(){
+        if (isOpen==true)
+        {
+            isOpen=false;
+            rb.RotateAround(point.transform.position,Vector3.up,90);
+        }
+    }
 }

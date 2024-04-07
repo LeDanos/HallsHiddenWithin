@@ -14,8 +14,10 @@ public class Pause : MonoBehaviour
     public Camera MainCamera;
     public GameObject StartCamera;
     public Canvas MapOverlay;
-    public AudioSource idle;
-    public AudioSource chase;
+    public AudioSource bIdle;
+    public AudioSource bChase;
+    public AudioSource gIdle;
+    public AudioSource gChase;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,8 +39,10 @@ public class Pause : MonoBehaviour
                 Time.timeScale=0;
                 run.enabled=false;
                 walk.enabled=false;
-                idle.enabled=false;
-                chase.enabled=false;
+                bIdle.enabled=false;
+                bChase.enabled=false;
+                gIdle.enabled=false;
+                gChase.enabled=false;
             }
             else if (isPaused==true)
             {

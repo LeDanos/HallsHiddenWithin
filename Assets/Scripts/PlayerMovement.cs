@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     public bool start=true;
     public bool end=false;
     public GameObject bob;
+    public GameObject gob;
     public GameObject playerSpawn;
 
     private void Start()
@@ -42,6 +43,8 @@ public class PlayerMovement : MonoBehaviour
         MainCamera.transform.rotation=startCamera.transform.rotation;
         run.enabled=false;
         walk.enabled=false;
+        GameObject.Find("Confirm Button").GetComponent<ConfirmButton>().Generate();
+        GameObject.Find("Player").GetComponent<Map>().hasMap=false;
     }
     void Update(){
         if (start==true)
@@ -57,11 +60,24 @@ public class PlayerMovement : MonoBehaviour
                 hidden=false;
                 start=false;
                 end=false;
+                GameObject.Find("Locked Door").GetComponent<LockedDoorInteractable>().hasKey=false;
+                //Reset Doors
+                GameObject[] doors = GameObject.FindGameObjectsWithTag("Door");
+                foreach (var door in doors)
+                {
+                    door.GetComponent<DoorInteractable>().Restart();
+                }
+                GameObject.Find("Locked Door").GetComponent<LockedDoorInteractable>().Restart();
                 //Reset Bob
-                bob.transform.position=GameObject.Find("Bob").GetComponent<BobController>().patrol[5].position;
+                bob.transform.position=GameObject.Find("Bob").GetComponent<BobController>().start.position;
                 GameObject.Find("Bob").GetComponent<BobController>().spottedTarget=false;
                 GameObject.Find("Bob").GetComponent<BobController>().roamCooldown=0;
                 GameObject.Find("Bob").GetComponent<BobController>().chaseTimer=0;
+                //Reset Gob
+                gob.transform.position=GameObject.Find("Gob").GetComponent<BobController>().start.position;
+                GameObject.Find("Gob").GetComponent<BobController>().spottedTarget=false;
+                GameObject.Find("Gob").GetComponent<BobController>().roamCooldown=0;
+                GameObject.Find("Gob").GetComponent<BobController>().chaseTimer=0;
                 //START
                 UnityEngine.Cursor.visible = false;
                 UnityEngine.Cursor.lockState = CursorLockMode.Locked;
