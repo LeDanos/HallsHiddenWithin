@@ -1,3 +1,14 @@
+<h1>Version 0.6</h1>
+<p>Fixed some slight bugs like walking through walls.</p>
+<p>Added decorations. (courtesy of <a href="https://github.com/McBeefyVEVO">McBeefy</a>)</p>
+<p>Added sounds for Bob (spooky and maybe a tiny bit loud).</p>
+<p>Added the map! Randomised and found in the red zone.</p>
+<p>Added the code puzzle with 6 randomised codes. Only 1 random code is the correct one to open the door (found on the map).</p>
+<p>Stamina and Bob now work as they should.</p>
+<a href="https://spsmbcz-my.sharepoint.com/:u:/g/personal/daniel_nemec_student_spsmb_cz/EWpwcq7N8o5Ot9aYGM7B8DEBt0QjX0IXuwlqSWNNZf4Nug">Download 0.6.0 here!</a>
+<img src="https://github.com/LeDanos/rocnikovka/assets/115611775/b6de3b7f-e698-42e4-81af-088e455d6296"/>
+<br/>
+
 <h1>Version 0.5</h1>
 <p>Redid some lighting things.</p>
 <p>Closets to hide and cry in.</p>
@@ -27,12 +38,14 @@
 <p>He roam, and if he see, he come.</p>
 <img src="https://github.com/LeDanos/rocnikovka/assets/115611775/6b47387b-c984-4874-bcee-0f584b395aee"/>
 <br/>
+
 <h1>Version 0.2</h1>
 <p>Added a fully functional pause menu! (It even comes free with a continue button for when you are too lazy to press escape!)(Amaznig offer!)</p>
 <p>The darkness is coming... You need to run...</p>
 <img src="https://github.com/LeDanos/rocnikovka/assets/115611775/7a3a49f0-30cb-422b-aa23-97ef50955005"/>
 <img src="https://github.com/LeDanos/rocnikovka/assets/115611775/732c5a37-b5ae-44fc-b3c2-f657c6c0dec0"/>
 <br/>
+
 <h1>Version 0.1</h1>
 <p>Finally posted the thing on github.</p>
 <p>Movement, camera rotation, pixelated filter, sprinting, stamina and interaction all in one! (Wowzers!)</p>
