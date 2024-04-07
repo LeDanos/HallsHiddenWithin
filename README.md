@@ -5,6 +5,7 @@
 <p>Added the map! Randomised and found in the red zone.</p>
 <p>Added the code puzzle with 6 randomised codes. Only 1 random code is the correct one to open the door (found on the map).</p>
 <p>Stamina and Bob now work as they should.</p>
+<a href="https://spsmbcz-my.sharepoint.com/:u:/g/personal/daniel_nemec_student_spsmb_cz/EVHlVLGLCGlMkuxYF66-sb4B7YwpmEpqiiGsqCKIwdVuMQ?e=eY9AHk">Download 0.6.1 here!</a>
 <a href="https://spsmbcz-my.sharepoint.com/:u:/g/personal/daniel_nemec_student_spsmb_cz/EWpwcq7N8o5Ot9aYGM7B8DEBt0QjX0IXuwlqSWNNZf4Nug">Download 0.6.0 here!</a>
 <img src="https://github.com/LeDanos/rocnikovka/assets/115611775/b6de3b7f-e698-42e4-81af-088e455d6296"/>
 <br/>
