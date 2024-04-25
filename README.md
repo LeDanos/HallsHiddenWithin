@@ -1,3 +1,13 @@
+<h1>Version 1.0</h1>
+<p>Made the game.</p>
+<p>You can now finish the game.</p>
+<p>All found bugs are fixed.</p>
+<p>Added Bob's brother Gob.</p>
+<p>Bob is now slower and chases longer. Gob is fast but has a tictoc level attention span.</p>
+<a href="https://drive.google.com/file/d/1Hh_1AsRitQSUK86KRSWPdGd1a1nkmHu2/view?usp=drive_link">Download 1.0.0 here!</a>
+
+<br/>
+
 <h1>Version 0.6</h1>
 <p>Fixed some slight bugs like walking through walls.</p>
 <p>Added decorations. (courtesy of <a href="https://github.com/McBeefyVEVO">McBeefy</a>)</p>
@@ -5,6 +15,7 @@
 <p>Added the map! Randomised and found in the red zone.</p>
 <p>Added the code puzzle with 6 randomised codes. Only 1 random code is the correct one to open the door (found on the map).</p>
 <p>Stamina and Bob now work as they should.</p>
+<a href="https://spsmbcz-my.sharepoint.com/:u:/g/personal/daniel_nemec_student_spsmb_cz/EVHlVLGLCGlMkuxYF66-sb4B7YwpmEpqiiGsqCKIwdVuMQ?e=eY9AHk">Download 0.6.1 here!</a>
 <a href="https://spsmbcz-my.sharepoint.com/:u:/g/personal/daniel_nemec_student_spsmb_cz/EWpwcq7N8o5Ot9aYGM7B8DEBt0QjX0IXuwlqSWNNZf4Nug">Download 0.6.0 here!</a>
 <img src="https://github.com/LeDanos/rocnikovka/assets/115611775/b6de3b7f-e698-42e4-81af-088e455d6296"/>
 <br/>
