@@ -1,3 +1,13 @@
+<h1>Version 1.0</h1>
+<p>Made the game.</p>
+<p>You can now finish the game.</p>
+<p>All found bugs are fixed.</p>
+<p>Added Bob's brother Gob.</p>
+<p>Bob is now slower and chases longer. Gob is fast but has a tictoc level attention span.</p>
+<a href="https://drive.google.com/file/d/1Hh_1AsRitQSUK86KRSWPdGd1a1nkmHu2/view?usp=drive_link">Download 1.0.0 here!</a>
+
+<br/>
+
 <h1>Version 0.6</h1>
 <p>Fixed some slight bugs like walking through walls.</p>
 <p>Added decorations. (courtesy of <a href="https://github.com/McBeefyVEVO">McBeefy</a>)</p>
