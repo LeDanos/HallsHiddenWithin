@@ -7,13 +7,16 @@ public class KeyInteractable : MonoBehaviour, IInteractable{
     public BoxCollider keyC;
     public Light spotLight;
     public GameObject point;
+    public GameObject lockedDoor;
     public void Interact(){
         key.enabled=false;
         keyC.enabled=false;
         spotLight.enabled=false;
-        GameObject.Find("Locked Door").GetComponent<LockedDoorInteractable>().hasKey=true;
+        lockedDoor.GetComponent<LockedDoorInteractable>().hasKey=true;
+        GameObject.Find("Bob").GetComponent<BobController>().GoTo(point.transform);
+        GameObject.Find("Gob").GetComponent<BobController>().GoTo(point.transform);
+        GameObject.Find("Bob").GetComponent<BobController>().roamCooldown=0;
+        GameObject.Find("Gob").GetComponent<BobController>().roamCooldown=0;
         GameObject.Find("Key").GetComponent<KeyInteractable>().enabled=false;
-        GameObject.Find("Bob").GetComponent<BobController>().GoTo(point);
-        GameObject.Find("Gob").GetComponent<BobController>().GoTo(point);
     }
 }

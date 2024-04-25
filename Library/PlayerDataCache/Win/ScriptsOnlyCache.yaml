@@ -19,12 +19,17 @@ ScriptsOnlyBuild:
     - ConfirmButton
     - DoorInteractable
     - Interactor
+    - KeyInteractable
+    - KeycardInteractable
+    - KeycardScanInteractable
     - KeypadInteractable
+    - LockedDoorInteractable
     - Map
     - MapInteractable
     - Pause
     - PlayerMovement
     - PlayerRotate
+    - Win
     Unity.AI.Navigation.Editor.dll:
     - Unity.AI.Navigation.Editor.NavigationWindow
     Unity.AI.Navigation.dll:
@@ -149,67 +154,77 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3174}
     - Class: 114
-      Script: {instanceID: 3418}
+      Script: {instanceID: 3190}
     - Class: 114
-      Script: {instanceID: 3488}
+      Script: {instanceID: 3420}
     - Class: 114
-      Script: {instanceID: 3942}
+      Script: {instanceID: 3490}
     - Class: 114
-      Script: {instanceID: 4074}
+      Script: {instanceID: 3944}
     - Class: 114
-      Script: {instanceID: 4470}
+      Script: {instanceID: 4076}
     - Class: 114
-      Script: {instanceID: 4562}
+      Script: {instanceID: 4472}
     - Class: 114
-      Script: {instanceID: 4610}
+      Script: {instanceID: 4564}
     - Class: 114
-      Script: {instanceID: 4838}
+      Script: {instanceID: 4576}
     - Class: 114
-      Script: {instanceID: 5204}
+      Script: {instanceID: 4614}
     - Class: 114
-      Script: {instanceID: 5250}
+      Script: {instanceID: 4842}
     - Class: 114
-      Script: {instanceID: 5258}
+      Script: {instanceID: 5208}
     - Class: 114
-      Script: {instanceID: 5432}
+      Script: {instanceID: 5254}
     - Class: 114
-      Script: {instanceID: 5548}
+      Script: {instanceID: 5262}
     - Class: 114
-      Script: {instanceID: 5602}
+      Script: {instanceID: 5436}
     - Class: 114
-      Script: {instanceID: 5644}
+      Script: {instanceID: 5482}
     - Class: 114
-      Script: {instanceID: 5664}
+      Script: {instanceID: 5554}
     - Class: 114
-      Script: {instanceID: 5730}
+      Script: {instanceID: 5608}
     - Class: 114
-      Script: {instanceID: 5800}
+      Script: {instanceID: 5650}
     - Class: 114
-      Script: {instanceID: 6214}
+      Script: {instanceID: 5670}
     - Class: 114
-      Script: {instanceID: 6368}
+      Script: {instanceID: 5736}
     - Class: 114
-      Script: {instanceID: 6414}
+      Script: {instanceID: 5806}
     - Class: 114
-      Script: {instanceID: 6716}
+      Script: {instanceID: 6220}
     - Class: 114
-      Script: {instanceID: 7092}
+      Script: {instanceID: 6374}
     - Class: 114
-      Script: {instanceID: 7254}
+      Script: {instanceID: 6380}
     - Class: 114
-      Script: {instanceID: 7530}
+      Script: {instanceID: 6422}
     - Class: 114
-      Script: {instanceID: 7848}
+      Script: {instanceID: 6502}
     - Class: 114
-      Script: {instanceID: 7920}
+      Script: {instanceID: 6726}
     - Class: 114
-      Script: {instanceID: 8044}
+      Script: {instanceID: 7102}
     - Class: 114
-      Script: {instanceID: 8124}
+      Script: {instanceID: 7264}
     - Class: 114
-      Script: {instanceID: 8288}
+      Script: {instanceID: 7540}
     - Class: 114
-      Script: {instanceID: 8464}
+      Script: {instanceID: 7858}
+    - Class: 114
+      Script: {instanceID: 7930}
+    - Class: 114
+      Script: {instanceID: 8054}
+    - Class: 114
+      Script: {instanceID: 8134}
+    - Class: 114
+      Script: {instanceID: 8298}
+    - Class: 114
+      Script: {instanceID: 8474}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -423,6 +438,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: b075a7bc52b7bcb6d76d43e37753ebec
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LockedDoorInteractable
   - hash:
       serializedVersion: 2
       Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
@@ -689,13 +710,19 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
+      Hash: 19e9d7d87583761654ac935cc663316c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: KeycardScanInteractable
+  - hash:
+      serializedVersion: 2
       Hash: ca7965796a6fc0e5baad4cb19f5b5ded
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: d4154d202e9c3fcb12d2c8f07364e2e2
+      Hash: f6a64ab706f73e95ad345fbc41d45cd8
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Pause
@@ -869,6 +896,12 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: 876680598f58b5d1ab8f5cf959e05554
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: KeyInteractable
+  - hash:
+      serializedVersion: 2
       Hash: 522f6865b4ec12522e602206785309f8
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1019,10 +1052,22 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 99804f82bbe7738e868e053135955bce
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: KeycardInteractable
+  - hash:
+      serializedVersion: 2
       Hash: 7a1cf3b82fc318f973a225f134f1043d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Button0
+  - hash:
+      serializedVersion: 2
+      Hash: bc22932b28f4ef2b57e12b4d0ab943fb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Win
   - hash:
       serializedVersion: 2
       Hash: da5a949a0bbd2ff91bc51c5805c2c41f
@@ -1253,7 +1298,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 558f359732f448fe02d75a99c7524646
+      Hash: 8e0dbd3c799a58cfa6590371fbd4ade5
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BobController
@@ -1319,13 +1364,13 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: ebcb737b5095850edfd8b83d0abb3374
+      Hash: 8891a6e61dd227db4464034aab5347c3
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MapInteractable
   - hash:
       serializedVersion: 2
-      Hash: 6af08bc9d4fa087df261289fe33a7ede
+      Hash: 8bc404826b1ef071a76cc16cd1e840a1
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement
@@ -1368,5 +1413,5 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Builds/Funny
-    Maze Game.exe
+  playerPath: C:/Users/Domov/Desktop/other things/Unity Projects/MazeGaming/Builds/Halls
+    Hidden Within.exe

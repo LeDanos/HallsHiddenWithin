@@ -34,4 +34,16 @@ public class ConfirmButton : MonoBehaviour, IInteractable{
             codeText[e].text=s;
         }
     }
+    public void Restart(){
+        if (done==true)
+        {
+            Door.position= new Vector3(Door.position.x,Door.position.y-6,Door.position.z);
+            done=false;
+        }
+        codeC[0]=0;
+        codeC[1]=0;
+        codeC[2]=0;
+        codeC[3]=0;
+        Generate();
+    }
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Assets.Pixelation.Scripts;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Pause : MonoBehaviour
@@ -70,7 +71,9 @@ public class Pause : MonoBehaviour
         PausedOverlay.enabled=false;
         GameObject.Find("Player").GetComponent<PlayerMovement>().start=true;
         GameObject.Find("Player").GetComponent<PlayerMovement>().end=false;
+        GameObject.Find("Player").GetComponent<PlayerMovement>().win=false;
         MainCamera.transform.position=StartCamera.transform.position;
         MainCamera.transform.rotation=StartCamera.transform.rotation;
+        SceneManager.LoadScene("Main");
     }
 }

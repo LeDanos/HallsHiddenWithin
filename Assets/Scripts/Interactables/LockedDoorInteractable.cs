@@ -6,10 +6,14 @@ public class LockedDoorInteractable : MonoBehaviour, IInteractable{
     private Transform rb;
     private bool isOpen=false;
     public GameObject point;
+    public MeshRenderer doorLock;
     public bool hasKey=false;
     public void Interact(){
+        Debug.Log(hasKey);
         if (hasKey==true)
         {
+            Debug.Log("b");
+            doorLock.enabled=false;
             rb = GetComponent<Transform>();
             if (isOpen==false)
             {

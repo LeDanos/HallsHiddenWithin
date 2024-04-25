@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class BobController : MonoBehaviour
 {
@@ -13,9 +14,9 @@ public class BobController : MonoBehaviour
     public bool spottedTarget=false;
     public float maxRoamCooldown=800f;
     public float roamCooldown=0f;
-    public RawImage r;
     public float chaseTimer=0f;
     public Transform[] patrol;
+    public Transform[] endPatrol;
     private float openCooldown=0f;
     public GameObject gameOverCamera;
     public Camera playerCamera;
@@ -26,6 +27,9 @@ public class BobController : MonoBehaviour
     public AudioSource bAlert;
     public Transform start;
     public float attentionSpan;
+    public AudioSource openStart;
+    public AudioSource open;
+    public AudioSource openEnd;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -47,6 +51,10 @@ public class BobController : MonoBehaviour
             {
                 if (hitInfo.collider.CompareTag("Player")&&GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
                 {
+                    if (spottedTarget==false)
+                    {
+                        bAlert.enabled=true;
+                    }
                     spottedTarget=true;
                     Debug.Log("SPOTTED");
                     agent.SetDestination(target.position);  //walk to target
@@ -58,7 +66,6 @@ public class BobController : MonoBehaviour
                     {
                         Roam();
                     }
-                    //Roam();
                 }
                 //Open doors
                 if (hitInfo.collider.CompareTag("Door"))
@@ -125,7 +132,7 @@ public class BobController : MonoBehaviour
 
 //--------------------------------------------------------------------------------------------------------------
     private void InFrontScan(Vector3 position,Vector3 forward){
-        Collider[] around=Physics.OverlapSphere(position,50*attentionSpan);
+        Collider[] around=Physics.OverlapSphere(position,40);
         foreach (var hitCollider in around)
         {
             if (hitCollider.CompareTag("Player")&&GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
@@ -137,8 +144,11 @@ public class BobController : MonoBehaviour
                     Debug.DrawRay(position,toPlayer,Color.red);
                     if (Physics.Raycast(toPlayerRay, out RaycastHit shitInfo)&&shitInfo.collider.CompareTag("Player"))
                     {
+                        if (spottedTarget==false)
+                        {
+                            bAlert.enabled=true;
+                        }
                         spottedTarget=true;
-                        bAlert.enabled=true;
                         Debug.Log("SPOTTED");
                         agent.SetDestination(target.position);  //walk to target
                     }
@@ -148,7 +158,7 @@ public class BobController : MonoBehaviour
     }
 
     private void AroundScan(Vector3 position){
-        Collider[] around=Physics.OverlapSphere(position,10*attentionSpan);
+        Collider[] around=Physics.OverlapSphere(position,8);
         foreach (var hitCollider in around)
         {
             if (hitCollider.CompareTag("Player")&&GameObject.Find("Player").GetComponent<PlayerMovement>().hidden==false)
@@ -158,8 +168,11 @@ public class BobController : MonoBehaviour
                 Debug.DrawRay(position,toPlayer,Color.red);
                 if (Physics.Raycast(toPlayerRay, out RaycastHit shitInfo)&&shitInfo.collider.CompareTag("Player"))
                 {
+                    if (spottedTarget==false)
+                    {
+                        bAlert.enabled=true;
+                    }
                     spottedTarget=true;
-                    bAlert.enabled=true;
                     Debug.Log("SPOTTED");
                     agent.SetDestination(target.position);  //walk to target
                 }
@@ -168,25 +181,41 @@ public class BobController : MonoBehaviour
     }
 
     private void Roam(){
-        if (roamCooldown==maxRoamCooldown)
-                {
-                    int roam = UnityEngine.Random.Range(0,patrol.Length);
-                    Vector3 roamTarget = patrol[roam].position;
-                    agent.SetDestination(roamTarget);  //walk to target
-                    roamCooldown=0;
-                    Debug.Log("Walkin'");
-                }else
-                {
-                    roamCooldown++;
-                }
+        if (roamCooldown==maxRoamCooldown){
+            if (GameObject.Find("Keycard Scan").GetComponent<KeycardScanInteractable>().isOpening==false&&GameObject.Find("Keycard Scan").GetComponent<KeycardScanInteractable>().isOpen==false)
+            {       
+                int roam = UnityEngine.Random.Range(0,patrol.Length);
+                Vector3 roamTarget = patrol[roam].position;
+                agent.SetDestination(roamTarget);  //walk to target
+                roamCooldown=0;
+                Debug.Log("Walkin'");         
+            }else
+            {
+                int roam = UnityEngine.Random.Range(0,endPatrol.Length);
+                Vector3 roamTarget = endPatrol[roam].position;
+                agent.SetDestination(roamTarget);  //walk to target
+                roamCooldown=0;
+                Debug.Log("Walkin'");   
+            }
+        }else{
+            roamCooldown++;
+        }
     }
 
-    public void GoTo(GameObject point){
+    public void GoTo(Transform point){
         if (spottedTarget==false)
         {
             roamCooldown=0;
-            agent.SetDestination(point.transform.position);
+            agent.SetDestination(point.position);
         }
+    }
+
+    public void Restart(){
+        spottedTarget=false;
+        roamCooldown=0;
+        chaseTimer=0;
+        transform.position=start.position;
+        agent.SetDestination(start.position);
     }
 
     //-----------------------------------------------------------------------------------------------------
@@ -222,7 +251,7 @@ public class BobController : MonoBehaviour
 
     //-----------------------------------------------------------------------------------------------------
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionStay(Collision collision)
         {
             if (collision.gameObject.CompareTag("Player"))
             {
@@ -232,14 +261,21 @@ public class BobController : MonoBehaviour
                 playerCamera.transform.position=gameOverCamera.transform.position;
                 playerCamera.transform.rotation=gameOverCamera.transform.rotation;
                 GameObject.Find("Player").GetComponent<PlayerMovement>().end=true;
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.None;
+                UnityEngine.Cursor.visible = true;
+                UnityEngine.Cursor.lockState = CursorLockMode.None;
                 run.enabled=false;
                 walk.enabled=false;
                 GameObject.Find("Bob").GetComponent<BobController>().bIdle.enabled=false;
                 GameObject.Find("Bob").GetComponent<BobController>().bChase.enabled=false;
                 GameObject.Find("Gob").GetComponent<BobController>().bIdle.enabled=false;
                 GameObject.Find("Gob").GetComponent<BobController>().bChase.enabled=false;
+                GameObject.Find("Player").GetComponent<PlayerMovement>().isSprinting=false;
+                GameObject.Find("Player").GetComponent<PlayerMovement>().MainCamera.fieldOfView=60f;
+                GameObject.Find("Player").GetComponent<PlayerMovement>().SprintingOverlay.enabled=false;
+                GameObject.Find("Player").GetComponent<PlayerMovement>().Stamina=GameObject.Find("Player").GetComponent<PlayerMovement>().MaxStamina;
+                open.enabled=false;
+                openStart.enabled=false;
+                openEnd.enabled=false;
                 }
             }
         }

@@ -335,7 +335,11 @@
 "Assets/Scripts/Interactables/Butns/ConfirmButton.cs"
 "Assets/Scripts/Interactables/ClosetInteractable.cs"
 "Assets/Scripts/Interactables/DoorInteractable.cs"
+"Assets/Scripts/Interactables/KeycardInteractable.cs"
+"Assets/Scripts/Interactables/KeycardScanInteractable.cs"
+"Assets/Scripts/Interactables/KeyInteractable.cs"
 "Assets/Scripts/Interactables/KeypadInteractable.cs"
+"Assets/Scripts/Interactables/LockedDoorInteractable.cs"
 "Assets/Scripts/Interactables/MapInteractable.cs"
 "Assets/Scripts/Interactables/TestInteractable.cs"
 "Assets/Scripts/Interactor.cs"
@@ -344,6 +348,7 @@
 "Assets/Scripts/PauseContinue.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/PlayerRotate.cs"
+"Assets/Scripts/Win.cs"
 -langversion:9.0
 
 /deterministic

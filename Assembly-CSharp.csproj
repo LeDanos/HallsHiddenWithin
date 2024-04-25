@@ -77,9 +77,11 @@
     <Compile Include="Assets\Pixelation\Scripts\Chunky.cs" />
     <Compile Include="Assets\Scripts\PlayerRotate.cs" />
     <Compile Include="Assets\Scripts\Interactables\LockedDoorInteractable.cs" />
+    <Compile Include="Assets\Scripts\Interactables\KeycardScanInteractable.cs" />
     <Compile Include="Assets\Scripts\Interactables\Butns\Button9.cs" />
     <Compile Include="Assets\Scripts\Interactables\Butns\Button5.cs" />
     <Compile Include="Assets\Scripts\Interactables\MapInteractable.cs" />
+    <Compile Include="Assets\Scripts\Win.cs" />
     <Compile Include="Assets\Pixelation\Example\Scripts\Plane.cs" />
     <Compile Include="Assets\Scripts\Interactables\Butns\Button3.cs" />
     <Compile Include="Assets\Scripts\Interactables\TestInteractable.cs" />

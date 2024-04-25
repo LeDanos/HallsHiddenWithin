@@ -5,6 +5,8 @@ using System.Runtime.CompilerServices;
 using System.Threading;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Timeline;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
@@ -12,24 +14,29 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 1f;
     private Rigidbody rb;
-    private bool isSprinting=false;
+    public bool isSprinting=false;
     public float runSpeed = 2f;
     public Camera MainCamera;
     public RawImage SprintingOverlay;
     public RawImage StaminaOverlay;
     public float MaxStamina =100;
-    private float Stamina;
+    public float Stamina;
     public AudioSource walk;
     public AudioSource run;
     public bool interacted=false;
     public bool hidden=false;
     public GameObject startCamera;
+    public GameObject winCamera;
     public GameObject playerCamera;
     public bool start=true;
     public bool end=false;
+    public bool win=false;
     public GameObject bob;
     public GameObject gob;
     public GameObject playerSpawn;
+    public AudioSource openStart;
+    public AudioSource open;
+    public AudioSource openEnd;
 
     private void Start()
     {
@@ -43,8 +50,6 @@ public class PlayerMovement : MonoBehaviour
         MainCamera.transform.rotation=startCamera.transform.rotation;
         run.enabled=false;
         walk.enabled=false;
-        GameObject.Find("Confirm Button").GetComponent<ConfirmButton>().Generate();
-        GameObject.Find("Player").GetComponent<Map>().hasMap=false;
     }
     void Update(){
         if (start==true)
@@ -60,7 +65,18 @@ public class PlayerMovement : MonoBehaviour
                 hidden=false;
                 start=false;
                 end=false;
-                GameObject.Find("Locked Door").GetComponent<LockedDoorInteractable>().hasKey=false;
+                open.enabled=false;
+                openStart.enabled=false;
+                openEnd.enabled=false;
+                GameObject.Find("Player").GetComponent<Map>().hasMap=false;
+
+                /*
+                //Reset Items
+                GameObject.Find("Key").GetComponent<KeyInteractable>().enabled=true;
+                GameObject.Find("Locked Door").GetComponent<LockedDoorInteractable>().hasKey=false;         <---- A lot of useless shit because me stupid :)
+                GameObject.Find("Keycard").GetComponent<KeycardInteractable>().enabled=true;
+                GameObject.Find("Keycard Scan").GetComponent<KeycardScanInteractable>().Restart();
+                GameObject.Find("Confirm Button").GetComponent<ConfirmButton>().Restart();
                 //Reset Doors
                 GameObject[] doors = GameObject.FindGameObjectsWithTag("Door");
                 foreach (var door in doors)
@@ -68,30 +84,36 @@ public class PlayerMovement : MonoBehaviour
                     door.GetComponent<DoorInteractable>().Restart();
                 }
                 GameObject.Find("Locked Door").GetComponent<LockedDoorInteractable>().Restart();
+                GameObject.Find("Keycard Scan").GetComponent<KeycardScanInteractable>().Restart();
                 //Reset Bob
-                bob.transform.position=GameObject.Find("Bob").GetComponent<BobController>().start.position;
-                GameObject.Find("Bob").GetComponent<BobController>().spottedTarget=false;
-                GameObject.Find("Bob").GetComponent<BobController>().roamCooldown=0;
-                GameObject.Find("Bob").GetComponent<BobController>().chaseTimer=0;
+                bob.GetComponent<BobController>().Restart();
                 //Reset Gob
-                gob.transform.position=GameObject.Find("Gob").GetComponent<BobController>().start.position;
-                GameObject.Find("Gob").GetComponent<BobController>().spottedTarget=false;
-                GameObject.Find("Gob").GetComponent<BobController>().roamCooldown=0;
-                GameObject.Find("Gob").GetComponent<BobController>().chaseTimer=0;
+                gob.GetComponent<BobController>().Restart();
+                */
+
                 //START
                 UnityEngine.Cursor.visible = false;
                 UnityEngine.Cursor.lockState = CursorLockMode.Locked;
                 Time.timeScale=1;
                 MainCamera.transform.position=playerCamera.transform.position;
                 MainCamera.transform.rotation=playerCamera.transform.rotation;
-            }
-        }else if(end==true){
+            }else if (Input.GetKeyDown(KeyCode.Q))
+            {
+                Application.Quit();
+            }/*else if (Input.GetKeyDown(KeyCode.R))        -For testing the win area
+            {
+                MainCamera.transform.position=winCamera.transform.position;
+                MainCamera.transform.rotation=winCamera.transform.rotation;
+            }*/
+        }else if(end==true||win==true){
             if (Input.GetKeyDown(KeyCode.E))
             {
                 start=true;
                 end=false;
+                win=false;
                 MainCamera.transform.position=startCamera.transform.position;
                 MainCamera.transform.rotation=startCamera.transform.rotation;
+                SceneManager.LoadScene("Main");
             }
         }else if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false&&start==false&&end==false)        //If the game isnt paused and player isnt interacted does the thing
         {
