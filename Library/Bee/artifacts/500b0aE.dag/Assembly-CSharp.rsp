@@ -366,6 +366,7 @@
 "Assets/Pixelation/Scripts/Chunky.cs"
 "Assets/Pixelation/Scripts/Pixelation.cs"
 "Assets/Scripts/BobController.cs"
+"Assets/Scripts/Death.cs"
 "Assets/Scripts/Interactables/Butns/Button0.cs"
 "Assets/Scripts/Interactables/Butns/Button1.cs"
 "Assets/Scripts/Interactables/Butns/Button2.cs"
@@ -393,6 +394,7 @@
 "Assets/Scripts/PauseContinue.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/PlayerRotate.cs"
+"Assets/Scripts/TestBobController.cs"
 "Assets/Scripts/Win.cs"
 -langversion:9.0
 
