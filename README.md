@@ -1,3 +1,17 @@
+<h1>Version 2.0????</h1>
+<p>THERE WAS LITERALLY NOTHING LIKE 5 SECONDS AGO, I MADE A COMMIT AND EVERYTHING REAPPERED.</p>
+<p>THE FILES WERE FUCKING GONE AND THEN REAPPEARED FROM THE ETHER OR SOME SHIT WHAT THE FUCK.</p>
+<p>Remade the whole game.</p>
+<p>Game is now linear.</p>
+<p>Gob is dead.</p>
+<p>Added Timothy, The cats and The eyes.</p>
+<p>I think god exists.</p>
+<p>Known bugs: Timothy not working? Timothy is still yellow in red zone.</p>
+<p>2.1 will be real.</p>
+<a href="https://spsmbcz-my.sharepoint.com/:u:/g/personal/daniel_nemec_student_spsmb_cz/EfnhTqqPu9lNmvvqyfH7o6kB2oq6zUZVyHnlA5Ws7dprzg">School access download here.</a>
+
+<br/>
+
 <h1>Version 1.0</h1>
 <p>Made the game.</p>
 <p>You can now finish the game.</p>

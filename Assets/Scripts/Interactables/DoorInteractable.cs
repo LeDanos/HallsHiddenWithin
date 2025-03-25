@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DoorInteractable : MonoBehaviour, IInteractable{
     private Transform rb;
-    private bool isOpen=false;
+    public bool isOpen=false;
     public GameObject point;
     public void Interact(){
         rb = GetComponent<Transform>();
