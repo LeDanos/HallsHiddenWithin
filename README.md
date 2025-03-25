@@ -6,7 +6,9 @@
 <p>Gob is dead.</p>
 <p>Added Timothy, The cats and The eyes.</p>
 <p>I think god exists.</p>
-<a href="https://spsmbcz-my.sharepoint.com/:u:/g/personal/daniel_nemec_student_spsmb_cz/ESNDT3FWd5BDhu43bRBbYjIB_Ld7ddbFtX3bp1-h1z6inQ">School access download here.</a>
+<p>Known bugs: Timothy not working? Timothy is still yellow in red zone.</p>
+<p>2.1 will be real.</p>
+<a href="https://spsmbcz-my.sharepoint.com/:u:/g/personal/daniel_nemec_student_spsmb_cz/EfnhTqqPu9lNmvvqyfH7o6kB2oq6zUZVyHnlA5Ws7dprzg">School access download here.</a>
 
 <br/>
 
