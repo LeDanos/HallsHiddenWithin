@@ -1,3 +1,12 @@
+<h1>Version 1.1</h1>
+<p>First phase of the remake.</p>
+<p>Features remade yellow and blue zone with no way to win yet.</p>
+<p>Timothy and the Cats are added.</p>
+<p>We do not speak of 'The incident'.</p>
+<a href="https://spsmbcz-my.sharepoint.com/:u:/g/personal/daniel_nemec_student_spsmb_cz/ESNDT3FWd5BDhu43bRBbYjIB_Ld7ddbFtX3bp1-h1z6inQ">School access download here.</a>
+
+<br/>
+
 <h1>Version 1.0</h1>
 <p>Made the game.</p>
 <p>You can now finish the game.</p>
