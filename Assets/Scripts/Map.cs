@@ -15,14 +15,13 @@ public class Map : MonoBehaviour{
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.M)&&GameObject.Find("Player").GetComponent<PlayerMovement>().start==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().interacted==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().end==false&&hasMap==true)
+        if (Input.GetKeyDown(KeyCode.M)&&GameObject.Find("Player").GetComponent<PlayerMenus>().start==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().interacted==false&&GameObject.Find("Player").GetComponent<PlayerMenus>().end==false&&hasMap==true)
         {
             if (GameObject.Find("Player").GetComponent<Pause>().isPaused==false)
             {
                 GameObject.Find("Player").GetComponent<Pause>().isPaused=true;
                 MapOverlay.enabled=true;
                 onMap=true;
-                MapImage[GameObject.Find("Confirm Button").GetComponent<ConfirmButton>().correctCode].enabled=true;
                 Debug.Log("Paused: Map");
                 run.enabled=false;
                 walk.enabled=false;

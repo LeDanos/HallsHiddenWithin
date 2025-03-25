@@ -5,8 +5,7 @@ public class ConfirmButton : MonoBehaviour, IInteractable{
     public Transform Door;
     private bool done=false;
     public int[] codeC={0,0,0,0};
-    public int[,] code={{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0},{0,0,0,0}};
-    public int correctCode=0;
+    public int[] code={0,0,0,0};
     public int changing=0;
     public TextMeshPro[] codeText;
     public void Start(){
@@ -15,24 +14,22 @@ public class ConfirmButton : MonoBehaviour, IInteractable{
     public void Interact(){
         if (done==false)
         {
-            if (code[correctCode,0]==codeC[0]&&code[correctCode,1]==codeC[1]&&code[correctCode,2]==codeC[2]&&code[correctCode,3]==codeC[3])
+            if (code[0]==codeC[0]&&code[1]==codeC[1]&&code[2]==codeC[2]&&code[3]==codeC[3])
             {
                 done=true;
-                Door.position= new Vector3(Door.position.x,Door.position.y+6,Door.position.z);
+                Door.position= new Vector3(Door.position.x,Door.position.y+4,Door.position.z);
             }
         }
     }
     public void Generate(){
-        correctCode=Random.Range(0,5);
-        for (int e = 6 - 1; e >= 0 ; e--)
-        {
-            code[e,0]=Random.Range(0,9);
-            code[e,1]=Random.Range(0,9);
-            code[e,2]=Random.Range(0,9);
-            code[e,3]=Random.Range(0,9);
-            string s = string.Join("", code[e,0],code[e,1],code[e,2],code[e,3]);
-            codeText[e].text=s;
-        }
+            code[0]=Random.Range(0,9);
+            code[1]=Random.Range(0,9);
+            code[2]=Random.Range(0,9);
+            code[3]=Random.Range(0,9);
+            codeText[0].text="1. = "+code[0].ToString();
+            codeText[1].text="2. = "+code[1].ToString();
+            codeText[2].text="3. = "+code[2].ToString();
+            codeText[3].text="4. = "+code[3].ToString();
     }
     public void Restart(){
         if (done==true)

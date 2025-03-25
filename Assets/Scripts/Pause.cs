@@ -28,7 +28,7 @@ public class Pause : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)&&GameObject.Find("Player").GetComponent<PlayerMovement>().start==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().interacted==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().end==false)
+        if (Input.GetKeyDown(KeyCode.Escape)&&GameObject.Find("Player").GetComponent<PlayerMenus>().start==false&&GameObject.Find("Player").GetComponent<PlayerMovement>().interacted==false&&GameObject.Find("Player").GetComponent<PlayerMenus>().end==false)
         {
             if (isPaused==false)
             {
@@ -53,11 +53,6 @@ public class Pause : MonoBehaviour
     }
 
     public void Continue(){
-        if (GameObject.Find("Player").GetComponent<Map>().onMap==true)
-        {
-            MapOverlay.enabled=false;
-            GameObject.Find("Main Camera").GetComponent<Pixelation>().BlockCount=180;
-        }
         isPaused=false;
         PausedOverlay.enabled=false;
         Cursor.visible = false;
@@ -69,9 +64,9 @@ public class Pause : MonoBehaviour
     public void ToMenu(){
         isPaused=false;
         PausedOverlay.enabled=false;
-        GameObject.Find("Player").GetComponent<PlayerMovement>().start=true;
-        GameObject.Find("Player").GetComponent<PlayerMovement>().end=false;
-        GameObject.Find("Player").GetComponent<PlayerMovement>().win=false;
+        GameObject.Find("Player").GetComponent<PlayerMenus>().start=true;
+        GameObject.Find("Player").GetComponent<PlayerMenus>().end=false;
+        GameObject.Find("Player").GetComponent<PlayerMenus>().win=false;
         MainCamera.transform.position=StartCamera.transform.position;
         MainCamera.transform.rotation=StartCamera.transform.rotation;
         SceneManager.LoadScene("Main");
