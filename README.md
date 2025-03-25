@@ -1,8 +1,11 @@
-<h1>Version 1.1</h1>
-<p>First phase of the remake.</p>
-<p>Features remade yellow and blue zone with no way to win yet.</p>
-<p>Timothy and the Cats are added.</p>
-<p>We do not speak of 'The incident'.</p>
+<h1>Version 2.0????</h1>
+<p>THERE WAS LITERALLY NOTHING LIKE 5 SECONDS AGO, I MADE A COMMIT AND EVERYTHING REAPPERED.</p>
+<p>THE FILES WERE FUCKING GONE AND THEN REAPPEARED FROM THE ETHER OR SOME SHIT WHAT THE FUCK.</p>
+<p>Remade the whole game.</p>
+<p>Game is now linear.</p>
+<p>Gob is dead.</p>
+<p>Added Timothy, The cats and The eyes.</p>
+<p>I think god exists.</p>
 <a href="https://spsmbcz-my.sharepoint.com/:u:/g/personal/daniel_nemec_student_spsmb_cz/ESNDT3FWd5BDhu43bRBbYjIB_Ld7ddbFtX3bp1-h1z6inQ">School access download here.</a>
 
 <br/>
