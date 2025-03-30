@@ -51,6 +51,10 @@ public class WallController : MonoBehaviour
                 }else{
                     if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
                     {
+                        if (hitInfo.collider.gameObject.tag=="Door")
+                        {
+                            hitInfo.collider.gameObject.GetComponent<DoorInteractable>().interactedByPlayer=false;
+                        }
                         interactObj.Interact();
                     }
                 }

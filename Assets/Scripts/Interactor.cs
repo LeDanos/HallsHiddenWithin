@@ -9,19 +9,11 @@ interface IInteractable{
 }
 public class Interactor : MonoBehaviour
 {
-    // Start is called before the first frame update
     public Transform InteractorSource;
     public float InteractRange = 2f;
     public TextMeshProUGUI InteractButtonUI;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        
         Ray r = new Ray(InteractorSource.position, InteractorSource.forward);
         if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange)&&GameObject.Find("Player").GetComponent<Pause>().isPaused==false)
         {
@@ -30,7 +22,10 @@ public class Interactor : MonoBehaviour
                 InteractButtonUI.enabled=true;
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                
+                    if (hitInfo.collider.gameObject.tag=="Door")
+                    {
+                        hitInfo.collider.gameObject.GetComponent<DoorInteractable>().interactedByPlayer=true;
+                    }
                     interactObj.Interact();
                 }
             }

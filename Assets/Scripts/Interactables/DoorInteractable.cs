@@ -6,6 +6,7 @@ public class DoorInteractable : MonoBehaviour, IInteractable{
     private Transform rb;
     public bool isOpen=false;
     public GameObject point;
+    public bool interactedByPlayer=false;
     public void Interact(){
         rb = GetComponent<Transform>();
         if (isOpen==false)
