@@ -68,7 +68,11 @@ public class BobController : MonoBehaviour
                     }else{
                         if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
                         {
-                        interactObj.Interact();
+                            if (hitInfo.collider.gameObject.tag=="Door")
+                            {
+                                hitInfo.collider.gameObject.GetComponent<DoorInteractable>().interactedByPlayer=false;
+                            }
+                            interactObj.Interact();
                         }
                     }
                 }

@@ -69,7 +69,7 @@ public class TimothyController : MonoBehaviour
     }
     void Update()
     {
-        if (active==true&&Door.GetComponent<DoorInteractable>().isOpen==true)
+        if (active==true&&Door.GetComponent<DoorInteractable>().isOpen==true&&Door.GetComponent<DoorInteractable>().interactedByPlayer==true)
         {
             Timothy.GetComponent<TimothyDamage>().EventStart();
             Breathing.transform.position=BreathingPoint;

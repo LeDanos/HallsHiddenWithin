@@ -1,3 +1,11 @@
+<h1>Version 2.1</h1>
+<p>Fixed Timothy.</p>
+<p>Timothy changes color in red zone.</p>
+<p>Bob and the wall cant trigger Timothy by opening doors anymore.</p>
+<a href="https://drive.google.com/file/d/16LqY0CZ4WogBqnjcuJOdY7gpcdYV-xq0/view?usp=sharing">2.1 download.</a>
+
+<br/>
+
 <h1>Version 2.0????</h1>
 <p>THERE WAS LITERALLY NOTHING LIKE 5 SECONDS AGO, I MADE A COMMIT AND EVERYTHING REAPPERED.</p>
 <p>THE FILES WERE FUCKING GONE AND THEN REAPPEARED FROM THE ETHER OR SOME SHIT WHAT THE FUCK.</p>

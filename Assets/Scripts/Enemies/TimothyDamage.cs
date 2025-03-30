@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 public class TimothyDamage : MonoBehaviour
 {
     public GameObject Timothy;
+    public GameObject TimothyAnimation;
     public AudioSource Bonk;
     public AudioSource Laugh;
     public void EventHit()
@@ -26,12 +24,19 @@ public class TimothyDamage : MonoBehaviour
         Bonk.enabled=false;
         Laugh.transform.position=GameObject.Find("Player").transform.position;
         Laugh.enabled=false;
-        Timothy.SetActive(true);
+        if (GameObject.Find("Player").GetComponent<LoadManager>().zone==2)
+        {
+            TimothyAnimation.GetComponent<UnityEngine.UI.Image>().color=Color.red;
+        }else
+        {
+            TimothyAnimation.GetComponent<UnityEngine.UI.Image>().color=Color.yellow;
+        }
+        TimothyAnimation.SetActive(true);
     }
     public void EventEnd()
     {
         Laugh.enabled=true;
-        Timothy.SetActive(false);
+        TimothyAnimation.SetActive(false);
         Timothy.GetComponent<TimothyController>().active=false;
         Timothy.GetComponent<TimothyController>().cooldown=1000;
         Timothy.GetComponent<TimothyController>().Breathing.transform.position=Timothy.GetComponent<TimothyController>().BreathingPoint;
